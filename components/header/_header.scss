@@ -1,5 +1,5 @@
 header {
-    padding: 30px 4% 10px;
+    padding: $font-mdxl 4% $font-xs;
     top: 0;
     width: 100%;
     background-color: $black;
@@ -7,7 +7,7 @@ header {
 }
 
 header > .logo {
-    font-size: 2.5rem;
+    font-size: $font-mdxl;
 }
 
  a {	
@@ -21,8 +21,8 @@ header > .logo {
  }
 
  .nav-list > li {
-    padding-right: 3rem;
-    font-weight: bold;
+    padding-right: $font-xxl;
+    font-weight: $bold;
  }
 
  
