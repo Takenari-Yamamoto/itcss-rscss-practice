@@ -299,6 +299,34 @@ main > img {
   font-size: 3.214rem;
 }
 
+.area_search {
+  width: 100%;
+}
+
+.area {
+  margin: 3rem;
+  width: 26%;
+}
+
+.area_search > h1 {
+  font-size: 3.214rem;
+  margin: 3rem;
+}
+
+.area_list {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.area_search > .area_list > .area > span {
+  font-weight: 600;
+}
+
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
 ._sp-hidden {
   display: block;

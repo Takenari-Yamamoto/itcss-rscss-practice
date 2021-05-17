@@ -1,0 +1,24 @@
+.area_search {
+    width: 100%;
+}
+
+.area {
+    margin: 3rem;
+    width: 26%;
+}
+
+.area_search > h1 {
+    font-size: $font-xxl;
+    margin: 3rem;
+}
+
+.area_list {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.area_search > .area_list > .area > span {
+    font-weight: $semi-bold;
+}
