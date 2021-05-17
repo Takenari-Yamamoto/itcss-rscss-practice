@@ -1,0 +1,19 @@
+main {
+    width: 100%;
+}
+
+main > img {
+    width: 100%;
+    display: block;
+}
+
+#catchphrase {
+    text-align: center;
+    padding: 3rem;
+    color: $white;
+    background-color: $black;
+    font-weight: $light;
+    font-size: $font-xxl;
+}
+
+

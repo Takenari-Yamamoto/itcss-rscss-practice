@@ -281,6 +281,24 @@ a {
   font-weight: 700;
 }
 
+main {
+  width: 100%;
+}
+
+main > img {
+  width: 100%;
+  display: block;
+}
+
+#catchphrase {
+  text-align: center;
+  padding: 3rem;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 300;
+  font-size: 3.214rem;
+}
+
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
 ._sp-hidden {
   display: block;
