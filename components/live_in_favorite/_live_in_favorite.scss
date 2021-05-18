@@ -1,0 +1,29 @@
+.live_in_favorite {
+    width: 100%;
+}
+
+.live_in_favorite > h1 {
+    font-size: $font-xxl;
+    margin: 3rem;
+}
+
+.fav_places {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fav_place {
+    display: block;
+}
+
+.fav_place > p {
+    font-weight: $bold;
+    font-size: $font-xl;
+}
+
+.fav_place > img {
+    width: 300px;
+    padding-right: 1rem;
+    border-radius: 2rem;
+}

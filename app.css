@@ -327,6 +327,38 @@ main > img {
   font-weight: 600;
 }
 
+.live_in_favorite {
+  width: 100%;
+}
+
+.live_in_favorite > h1 {
+  font-size: 3.214rem;
+  margin: 3rem;
+}
+
+.fav_places {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fav_place {
+  display: block;
+}
+
+.fav_place > p {
+  font-weight: 700;
+  font-size: 1.713rem;
+}
+
+.fav_place > img {
+  width: 300px;
+  padding-right: 1rem;
+  border-radius: 2rem;
+}
+
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
 ._sp-hidden {
   display: block;
