@@ -1,4 +1,5 @@
 .live_in_favorite {
+    
     width: 100%;
 }
 
@@ -9,8 +10,9 @@
 
 .fav_places {
     width: 90%;
-    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .fav_place {
@@ -24,6 +26,5 @@
 
 .fav_place > img {
     width: 300px;
-    padding-right: 1rem;
-    border-radius: 2rem;
+    padding-right: 4rem;
 }

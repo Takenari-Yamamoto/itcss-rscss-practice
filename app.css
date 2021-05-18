@@ -309,6 +309,11 @@ main > img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding-bottom: 3rem;
 }
 
 .area > img {
@@ -351,10 +356,13 @@ main > img {
 
 .fav_places {
   width: 90%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
 .fav_place {
@@ -368,8 +376,7 @@ main > img {
 
 .fav_place > img {
   width: 300px;
-  padding-right: 1rem;
-  border-radius: 2rem;
+  padding-right: 4rem;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
