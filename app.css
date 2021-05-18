@@ -306,6 +306,14 @@ main > img {
 .area {
   margin: 3rem;
   width: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.area > img {
+  width: 12rem;
+  border-radius: 2rem;
 }
 
 .area_search > h1 {
@@ -323,7 +331,12 @@ main > img {
   margin: 0 auto;
 }
 
-.area_search > .area_list > .area > span {
+.area_text {
+  padding-left: 3rem;
+  margin-top: 1rem;
+}
+
+.area_list > .area > .area_text > span {
   font-weight: 600;
 }
 
