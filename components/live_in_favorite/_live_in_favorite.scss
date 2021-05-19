@@ -1,7 +1,4 @@
-.live_in_favorite {
-    
-    width: 100%;
-}
+
 
 .live_in_favorite > h1 {
     font-size: $font-xxl;
@@ -11,8 +8,8 @@
 .fav_places {
     width: 90%;
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .fav_place {

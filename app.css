@@ -345,10 +345,6 @@ main > img {
   font-weight: 600;
 }
 
-.live_in_favorite {
-  width: 100%;
-}
-
 .live_in_favorite > h1 {
   font-size: 3.214rem;
   margin: 3rem;
@@ -359,10 +355,10 @@ main > img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
 }
 
 .fav_place {
@@ -377,6 +373,30 @@ main > img {
 .fav_place > img {
   width: 300px;
   padding-right: 4rem;
+}
+
+.lets_host {
+  background-image: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=1440");
+  background-size: cover;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-bottom: 10rem;
+  margin-top: 3rem;
+}
+
+.lets_host > .text {
+  padding: 9rem;
+  color: #ffffff;
+}
+
+.lets_host > .text > h1 {
+  font-size: 2.286rem;
+}
+
+.lets_host > .text > p {
+  padding-bottom: 2rem;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/

@@ -1,0 +1,23 @@
+.lets_host {
+    background-image: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=1440");
+    background-size: cover;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+
+.lets_host > .text {
+   padding: 9rem;
+   color: $white;
+}
+
+.lets_host > .text > h1 {
+    font-size: $font-mdxl;
+}
+
+.lets_host > .text > p {
+    padding-bottom: 2rem;
+}
