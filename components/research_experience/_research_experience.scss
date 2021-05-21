@@ -1,0 +1,43 @@
+.research_experience {
+    width: 100%;
+}
+
+.research_experience  > h1 {
+    font-size: $font-xxl;
+    margin-left: 3rem;
+}
+
+.research_experience > p {
+    font-size: $font-xl;
+    margin-left: 3rem;
+}
+
+.experiences {
+    display: flex;
+    padding-top: 3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.experiences > .experience {
+    margin: 0;
+    width: 50%;
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.experiences > .experience > .text {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.experience > .experience_image > img {
+    width: 30rem;
+    margin: 0;
+    border-radius: 1rem;
+}
+
+.experiences > .experience > img {
+    border-radius: 1rem;
+    width: 30rem;
+}

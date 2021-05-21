@@ -371,7 +371,7 @@ main > img {
 }
 
 .fav_place > img {
-  width: 300px;
+  width: 30%;
   padding-right: 4rem;
 }
 
@@ -393,10 +393,57 @@ main > img {
 
 .lets_host > .text > h1 {
   font-size: 2.286rem;
+  margin: 3rem;
 }
 
 .lets_host > .text > p {
   padding-bottom: 2rem;
+}
+
+.research_experience {
+  width: 100%;
+}
+
+.research_experience > h1 {
+  font-size: 3.214rem;
+  margin-left: 3rem;
+}
+
+.research_experience > p {
+  font-size: 1.713rem;
+  margin-left: 3rem;
+}
+
+.experiences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.experiences > .experience {
+  margin: 0;
+  width: 50%;
+  text-align: left;
+  padding-right: 2rem;
+}
+
+.experiences > .experience > .text {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.experience > .experience_image > img {
+  width: 30rem;
+  margin: 0;
+  border-radius: 1rem;
+}
+
+.experiences > .experience > img {
+  border-radius: 1rem;
+  width: 30rem;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
