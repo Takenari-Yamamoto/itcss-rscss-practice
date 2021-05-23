@@ -446,6 +446,37 @@ main > img {
   width: 30rem;
 }
 
+.company_info {
+  background-color: #e2dddd;
+  margin-top: 10rem;
+  padding-left: 1rem;
+}
+
+.company_info > p {
+  max-width: 90%;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  font-weight: 700;
+}
+
+.company_info > ul {
+  max-width: 98%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #cccaca;
+  margin-bottom: 3rem;
+}
+
+.company_info > ul > li {
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  width: 32%;
+}
+
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
 ._sp-hidden {
   display: block;
