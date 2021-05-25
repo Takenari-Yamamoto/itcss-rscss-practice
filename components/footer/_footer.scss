@@ -1,5 +1,9 @@
-.company_info {
+footer {
     background-color: $footer-glay;
+
+}
+
+.company_info {
     margin-top : 10rem;
     padding-left: 1rem;
 }
@@ -24,4 +28,42 @@
     font-size: 1.3rem;
     padding: 1.5rem;
     width: 32%;
+}
+
+.footer_last {
+    font-size: small;
+    text-align: center;
+}
+
+.footer_last > .first {
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+} 
+
+.footer_last > .first > p {
+    padding-right: 2rem;
+}
+
+.sns_icon {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.sns_icon > p {
+    padding-right: 2rem;
+}
+
+.footer_last > .second {
+
+}
+
+.footer_last > .third > ul {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.footer_last > .third > ul > li {
+    padding-right: 2rem;
 }

@@ -446,8 +446,11 @@ main > img {
   width: 30rem;
 }
 
+footer {
+  background-color: #f0ecec;
+}
+
 .company_info {
-  background-color: #e2dddd;
   margin-top: 10rem;
   padding-left: 1rem;
 }
@@ -475,6 +478,50 @@ main > img {
   font-size: 1.3rem;
   padding: 1.5rem;
   width: 32%;
+}
+
+.footer_last {
+  font-size: small;
+  text-align: center;
+}
+
+.footer_last > .first {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+}
+
+.footer_last > .first > p {
+  padding-right: 2rem;
+}
+
+.sns_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 2rem;
+}
+
+.sns_icon > p {
+  padding-right: 2rem;
+}
+
+.footer_last > .third > ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.footer_last > .third > ul > li {
+  padding-right: 2rem;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
