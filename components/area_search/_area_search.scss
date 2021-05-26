@@ -36,3 +36,26 @@
 .area_list > .area > .area_text > span {
     font-weight: $semi-bold;
 }
+
+@media screen and (max-width: 720px) {
+
+    .area_search > h1 {
+        font-size: $font-xl;
+    }
+	
+    .area_list > .area {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }　
+
+    .area_list:nth-of-type(1) {
+        display: none;
+    }
+
+    .area_list > .area > img {
+        width: 6.5rem;
+    }
+
+
+}

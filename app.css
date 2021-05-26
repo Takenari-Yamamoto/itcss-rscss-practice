@@ -345,6 +345,28 @@ main > img {
   font-weight: 600;
 }
 
+@media screen and (max-width: 720px) {
+  .area_search > h1 {
+    font-size: 1.713rem;
+  }
+  .area_list > .area {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  　
+.area_list:nth-of-type(1) {
+    display: none;
+  }
+  .area_list > .area > img {
+    width: 6.5rem;
+  }
+}
+
 .live_in_favorite > h1 {
   font-size: 3.214rem;
   margin: 3rem;
