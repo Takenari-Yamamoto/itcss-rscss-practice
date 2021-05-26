@@ -1,5 +1,4 @@
 
-
 .live_in_favorite > h1 {
     font-size: $font-xxl;
     margin: 3rem;
@@ -14,6 +13,8 @@
 
 .fav_place {
     display: block;
+    width: 30%;
+    margin-right: 2rem;
 }
 
 .fav_place > p {
@@ -22,6 +23,6 @@
 }
 
 .fav_place > img {
-    width: 30%;
-    padding-right: 4rem;
+    width: 30rem;
+    border-radius: 1rem;
 }
