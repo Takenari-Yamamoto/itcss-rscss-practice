@@ -23,6 +23,26 @@
 }
 
 .fav_place > img {
-    width: 30rem;
+    width: 100%;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+
+    .live_in_favorite > h1 {
+        font-size: $font-xl;
+    }
+
+    .live_in_favorite > .fav_places > .fav_place {
+        margin-right: 15rem;
+    }
+
+    .fav_place > img {
+        width: 30rem;
+    }
+
+    .live_in_favorite > .fav_places {
+        overflow: scroll;
+    }
+
 }
