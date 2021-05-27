@@ -615,6 +615,36 @@ footer {
   padding-right: 2rem;
 }
 
+@media screen and (max-width: 720px) {
+  .company_info > ul {
+    display: block;
+    margin: 1.3rem;
+  }
+  .company_info > ul > li {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  .footer_last {
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .footer_last > .first {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: left;
+  }
+  .footer_last > .second > p {
+    margin: 0.1rem;
+  }
+  .footer_last > .third > ul {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin: 0.1rem;
+  }
+}
+
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
 ._sp-hidden {
   display: block;
