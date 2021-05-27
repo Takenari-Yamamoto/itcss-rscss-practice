@@ -404,7 +404,7 @@ main > img {
     font-size: 1.713rem;
   }
   .live_in_favorite > .fav_places > .fav_place {
-    margin-right: 15rem;
+    margin-right: 20rem;
   }
   .fav_place > img {
     width: 30rem;
@@ -430,13 +430,40 @@ main > img {
   color: #ffffff;
 }
 
+.lets_host > .img_phone {
+  display: none;
+}
+
 .lets_host > .text > h1 {
   font-size: 2.286rem;
-  margin: 3rem;
 }
 
 .lets_host > .text > p {
   padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  .lets_host {
+    background-color: #929191;
+    height: 270px;
+    border-radius: 1rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .lets_host > .text {
+    font-size: 1rem;
+    text-align: left;
+    padding: 4rem 3rem;
+  }
+  .lets_host > .text > h1 {
+    font-size: 1.3rem;
+  }
+  .lets_host > .text > button {
+    font-size: 1rem;
+  }
+  .img_phone {
+    width: 100%;
+  }
 }
 
 .research_experience {
@@ -483,6 +510,31 @@ main > img {
 .experiences > .experience > img {
   border-radius: 1rem;
   width: 30rem;
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 720px) {
+  .research_experience > h1 {
+    font-size: 1.713rem;
+  }
+  .research_experience > p {
+    font-size: 1.143rem;
+  }
+  .research_experience > .experiences {
+    width: 100%;
+    overflow: scroll;
+  }
+  .research_experience > .experiences > .experience {
+    font-size: 1.143rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .research_experience > .experiences > .experience {
+    margin-right: 10rem;
+  }
 }
 
 footer {

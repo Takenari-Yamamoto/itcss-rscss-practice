@@ -14,11 +14,44 @@
    color: $white;
 }
 
+.lets_host > .img_phone {
+    display: none;
+}
+
 .lets_host > .text > h1 {
     font-size: $font-mdxl;
-    margin: 3rem;
 }
 
 .lets_host > .text > p {
     padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+
+    .lets_host {
+        background-color: rgb(146, 145, 145);
+        height: 270px;
+        border-radius: 1rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .lets_host > .text {
+        font-size: 1rem;
+        text-align: left;
+        padding: 4rem 3rem;
+    }
+
+    .lets_host > .text > h1 {
+        font-size: 1.3rem;
+    }
+
+    .lets_host > .text > button {
+        font-size: 1rem;
+    }
+
+    .img_phone {
+        width: 100%;
+    }
+
 }
