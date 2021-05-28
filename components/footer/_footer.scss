@@ -1,5 +1,5 @@
 footer {
-    background-color: $footer-glay;
+    background-color: $snowberry-glay;
 
 }
 
@@ -10,7 +10,7 @@ footer {
 
 .company_info > p {
     max-width: 90%;
-    font-size: 1.3rem;
+    font-size: $font-mds;
     padding: 1.5rem;
     font-weight: $bold;
 }
@@ -25,13 +25,13 @@ footer {
 }
 
 .company_info > ul > li {
-    font-size: 1.3rem;
+    font-size: $font-mds;
     padding: 1.5rem;
     width: 32%;
 }
 
 .footer_last {
-    font-size: small;
+    font-size: $font-xs;
     text-align: center;
 }
 
