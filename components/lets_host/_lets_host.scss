@@ -5,13 +5,46 @@
     width: 90%;
     margin: 0 auto;
     border-radius: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     margin-top: 3rem;
+
+    @include tab {
+        background-color: $black;
+        height: 260px;
+        border-radius: 1rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    @include sp {
+        height: 200px;
+    }
+
+    @include iphone5 {
+        height: 300px;
+    }
+
 }
 
 .lets_host > .text {
    padding: 9rem;
    color: $white;
+
+   @include tab {
+        font-size: $font-sm;
+        text-align: left;
+        padding: 4rem 3rem;
+   }
+
+   @include sp {
+       font-size: $font-xs;
+   }
+
+   @include iphone5 {
+       text-align: center;
+       font-size: $font-xs;
+       padding-top: 14rem;
+   }
 }
 
 .lets_host > .img_phone {
@@ -20,36 +53,20 @@
 
 .lets_host > .text > h1 {
     font-size: $font-mdxl;
+
+    @include tab {
+        font-size: 1.3rem;
+    }
+
 }
 
 .lets_host > .text > p {
     padding-bottom: 2rem;
 }
 
-@media screen and (max-width: 720px) {
+.lets_host > .text > button {
 
-    .lets_host {
-        background-color: rgb(146, 145, 145);
-        height: 270px;
-        border-radius: 1rem;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .lets_host > .text {
-        font-size: 1rem;
-        text-align: left;
-        padding: 4rem 3rem;
-    }
-
-    .lets_host > .text > h1 {
-        font-size: 1.3rem;
-    }
-
-    .lets_host > .text > button {
+    @include tab {
         font-size: 1rem;
     }
-
-    
-
 }

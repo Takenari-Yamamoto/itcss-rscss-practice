@@ -1,98 +1,104 @@
 footer {
     background-color: $snowberry-glay;
-
 }
 
-.company_info {
+footer > .company_info {
     margin-top : 10rem;
     padding-left: 1rem;
 }
 
-.company_info > p {
+footer > .company_info > p {
     max-width: 90%;
     font-size: $font-mds;
     padding: 1.5rem;
     font-weight: $bold;
 }
 
-.company_info > ul {
+footer > .company_info > ul {
     max-width: 98%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(204, 202, 202);
     margin-bottom: 3rem;
-}
 
-.company_info > ul > li {
-    font-size: $font-mds;
-    padding: 1.5rem;
-    width: 32%;
-}
-
-.footer_last {
-    font-size: $font-xs;
-    text-align: center;
-}
-
-.footer_last > .first {
-    justify-content: center;
-    display: flex;
-    margin: 1rem;
-} 
-
-.footer_last > .first > p {
-    padding-right: 2rem;
-}
-
-.sns_icon {
-    display: flex;
-    padding-right: 2rem;
-}
-
-.sns_icon > p {
-    padding-right: 2rem;
-}
-
-.footer_last > .third > ul {
-    justify-content: center;
-    display: flex;
-    padding-bottom: 2rem;
-}
-
-.footer_last > .third > ul > li {
-    padding-right: 2rem;
-}
-
-@media screen and (max-width: 720px) {
-
-    .company_info > ul {
+    @include tab {
         display: block;
         margin: 1.3rem;
     }
 
-    .company_info > ul > li {
+}
+
+footer > .company_info > ul > li {
+    font-size: $font-mds;
+    padding: 1.5rem;
+    width: 32%;
+
+    @include tab {
         width: 100%;
         padding: 0.6rem;
     }
+}
 
-    .footer_last {
-        text-align: left;
+footer > .footer_last {
+    font-size: $font-xs;
+    text-align: center;
+
+    @include tab {
         margin-left: 1rem;
     }
 
-    .footer_last > .first {
-        justify-content: left;
+    @include sp {
         text-align: left;
     }
 
-    .footer_last > .second > p {
-        margin: 0.1rem;
-    }
+}
 
-    .footer_last > .third > ul {
+footer > .footer_last > .first {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+
+    @include sp {
         justify-content: left;
+    }
+} 
+
+footer > .footer_last > .first > p {
+    padding-right: 2rem;
+}
+
+footer > .footer_last > .first > .sns_icon {
+    display: flex;
+    padding-right: 2rem;
+}
+
+footer > .footer_last > .first > .sns_icon > p {
+    padding-right: 2rem;
+}
+
+footer > .footer_last > .second > p {
+    
+    @include tab {
+        margin: 0.1rem;
+    }
+}
+
+footer > .footer_last > .third > ul {
+
+    display: flex;
+    padding-bottom: 2rem;
+    justify-content: center;
+
+    @include tab {
         margin: 0.1rem;
     }
 
+    @include sp {
+        justify-content: left;
+    }
+}
+
+footer > .footer_last > .third > ul > li {
+    padding-right: 2rem;
 }

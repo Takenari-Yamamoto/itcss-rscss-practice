@@ -5,71 +5,60 @@
 .research_experience  > h1 {
     font-size: $font-xxl;
     margin-left: 3rem;
+
+    @include tab {
+        font-size: $font-xl;
+    }
 }
 
 .research_experience > p {
     font-size: $font-xl;
     margin-left: 3rem;
+
+    @include tab {
+        font-size: $font-sm;
+    }
 }
 
-.experiences {
+.research_experience > .experiences {
     display: flex;
     padding-top: 3rem;
     width: 90%;
     margin: 0 auto;
+
+    @include tab {
+        width: 100%;
+        overflow: scroll;
+    }
 }
 
-.experiences > .experience {
+.research_experience > .experiences > .experience {
     margin: 0;
     width: 50%;
     text-align: left;
-    padding-right: 2rem;
+    margin-right: 1rem;
+
+    @include tab {
+        font-size: $font-sm;
+        margin-left: 3rem;
+    }
+
+    @include sp {
+        width: 100%;
+        // margin-right: 10rem;
+    }
+
+    @include iphone5 {
+    }
 }
 
-.experiences > .experience > .text {
+.research_experience > .experiences > .experience > .text {
     text-align: left;
     margin-left: 1rem;
 }
 
-.experience > .experience_image > img {
+.research_experience > .experiences > .experience > img {
     width: 30rem;
     margin: 0;
     border-radius: 1rem;
-}
-
-.experiences > .experience > img {
-    border-radius: 1rem;
-    width: 30rem;
-    margin-right: 3rem;
-}
-
-@media screen and (max-width: 720px) {
-    
-    .research_experience > h1 {
-        font-size: $font-xl;
-    }
-
-    .research_experience > p {
-        font-size: $font-sm;
-    }
-
-    .research_experience > .experiences {
-        width: 100%;
-        overflow: scroll;
-    }
-
-    .research_experience > .experiences > .experience {
-        font-size: $font-sm;
-        margin-right: 3rem;
-        margin-left: 3rem;
-    }
-
-}
-
-@media screen and (max-width: 570px) {
-
-    .research_experience > .experiences > .experience {
-        margin-right: 10rem;
-    }
-
 }

@@ -2,19 +2,35 @@
 .live_in_favorite > h1 {
     font-size: $font-xxl;
     margin: 3rem;
+
+    @include sp {
+        font-size: $font-xl;
+    }
+
 }
 
-.fav_places {
+.live_in_favorite > .fav_places {
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+
+    @include tab {
+        overflow: scroll;
+    }
+
 }
 
-.fav_place {
+.live_in_favorite > .fav_places > .fav_place {
     display: block;
     width: 30%;
     margin-right: 2rem;
+
+    @include sp {
+        width: 40%;
+        margin-right: 20rem;
+    }
+
 }
 
 .fav_place > p {
@@ -25,24 +41,9 @@
 .fav_place > img {
     width: 100%;
     border-radius: 1rem;
-}
 
-@media screen and (max-width: 720px) {
-
-    .live_in_favorite > h1 {
-        font-size: $font-xl;
-    }
-
-    .live_in_favorite > .fav_places > .fav_place {
-        margin-right: 20rem;
-    }
-
-    .fav_place > img {
+    @include sp {
         width: 30rem;
-    }
-
-    .live_in_favorite > .fav_places {
-        overflow: scroll;
     }
 
 }

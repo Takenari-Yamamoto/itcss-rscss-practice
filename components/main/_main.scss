@@ -14,6 +14,12 @@ main > img {
     background-color: $black;
     font-weight: $light;
     font-size: $font-xxl;
+
+    @include sp {
+        font-size: $font-lg;
+    }
+
 }
+
 
 
