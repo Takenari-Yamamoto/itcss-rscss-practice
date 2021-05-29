@@ -240,15 +240,14 @@ textarea {
 }
 
 main {
-  width: 100%;
-}
-
-main > img {
-  width: 100%;
-  display: block;
+  background-image: url("./images/mainpic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 #catchphrase {
+  width: 100%;
   text-align: center;
   padding: 3rem;
   color: #ffffff;
@@ -564,6 +563,39 @@ main > img {
   border-radius: 1rem;
   /*角の丸み*/
   font-weight: 700;
+}
+
+.search_component {
+  width: 90%;
+  padding: 0.5rem;
+  border: 0.1rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.search_component > input {
+  padding: 1.3rem;
+  border-style: none;
+  margin-right: 0;
+  border-radius: 3rem;
+  cursor: pointer;
+  outline: none;
+  border-right: 0.1rem solid #e0e0e0;
+}
+
+.search_component > input:last-child {
+  border: none;
+}
+
+input:hover {
+  color: #363636;
 }
 
 header {

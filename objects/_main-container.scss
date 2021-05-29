@@ -1,19 +1,20 @@
 main {
-    width: 100%;
-}
-
-main > img {
-    width: 100%;
-    display: block;
+    background-image: url("./images/mainpic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
 #catchphrase {
+    width: 100%;
     text-align: center;
     padding: 3rem;
     color: $white;
     background-color: $black;
     font-weight: $light;
     font-size: $font-xxl;
+    // position: absolute;
+    // bottom: 0;
 
     @include sp {
         font-size: $font-lg;
