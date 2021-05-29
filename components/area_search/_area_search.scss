@@ -29,12 +29,7 @@
 }
 
 .area_search > h1 {
-    font-size: $font-xxl;
-    margin: 3rem;
-
-    @include sp {
-        font-size: $font-xl;
-    }
+    @include subtitle
 }
 
 .area_list {

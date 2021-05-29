@@ -1,24 +1,10 @@
 
 .live_in_favorite > h1 {
-    font-size: $font-xxl;
-    margin: 3rem;
-
-    @include sp {
-        font-size: $font-xl;
-    }
-
+    @include subtitle
 }
 
 .live_in_favorite > .fav_places {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-
-    @include tab {
-        overflow: scroll;
-    }
-
+    @include sidebyside
 }
 
 .live_in_favorite > .fav_places > .fav_place {

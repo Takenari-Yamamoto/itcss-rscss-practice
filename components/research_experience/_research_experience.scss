@@ -3,12 +3,7 @@
 }
 
 .research_experience  > h1 {
-    font-size: $font-xxl;
-    margin-left: 3rem;
-
-    @include tab {
-        font-size: $font-xl;
-    }
+    @include subtitle;
 }
 
 .research_experience > p {
@@ -21,15 +16,7 @@
 }
 
 .research_experience > .experiences {
-    display: flex;
-    padding-top: 3rem;
-    width: 90%;
-    margin: 0 auto;
-
-    @include tab {
-        width: 100%;
-        overflow: scroll;
-    }
+    @include sidebyside
 }
 
 .research_experience > .experiences > .experience {

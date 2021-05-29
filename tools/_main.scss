@@ -1,1 +1,8 @@
 /* 　アニメーションやプリプロセッサ用のmixinやfunctionをこのレイヤーで管理　*/
+@mixin subtitle {
+    font-size: $font-xxl;
+    margin: 3rem;
+    @include sp {
+        font-size: $font-xl;
+    }
+}
