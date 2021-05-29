@@ -239,15 +239,16 @@ textarea {
   outline: none;
 }
 
-.common-container {
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  color: red;
-}
-
 .c-button {
-  color: blue;
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  color: #000000;
+  background: #ffffff;
+  /*色*/
+  border-radius: 1rem;
+  /*角の丸み*/
+  font-weight: 700;
 }
 
 header {
@@ -549,17 +550,18 @@ main > img {
 }
 
 .research_experience > .experiences {
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 3rem;
-  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .research_experience > .experiences {
-    width: 100%;
     overflow: scroll;
   }
 }
