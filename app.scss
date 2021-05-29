@@ -15,17 +15,16 @@
 
 // objects
 @import 'objects/common-container';
+@import 'objects/main-container';
+@import 'objects/area-search-container';
+@import 'objects/live-favorite-container.scss';
+@import 'objects/lets-host-container';
+@import 'objects/research-experience-container';
 
 // components
 @import 'components/button/button-common';
 @import 'components/header/_header';
-@import 'components/main/_main';
-@import 'components/area_search/_area_search';
-@import 'components/live_in_favorite/_live_in_favorite';
-@import 'components/lets_host/_lets_host';
-@import 'components/research_experience/_research_experience';
 @import 'components/footer/_footer';
-
 
 // utilities
 @import 'utilities/main';
