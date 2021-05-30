@@ -7,3 +7,16 @@
   border-radius: 1rem;/*角の丸み*/
   font-weight: $bold;
 }
+
+.c-searchbutton {
+  color: $white;
+  font-weight: $bold;
+  background-color: $radical-red;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.c-searchbutton:hover {
+  color: $white;
+  background-color: $rio-red;
+}

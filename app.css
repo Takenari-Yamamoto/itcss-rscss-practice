@@ -256,6 +256,12 @@ main {
   font-size: 3.214rem;
 }
 
+@media (max-width: 768px) {
+  #catchphrase {
+    font-size: 2.286rem;
+  }
+}
+
 @media (max-width: 576px) {
   #catchphrase {
     font-size: 1.57rem;
@@ -565,22 +571,37 @@ main {
   font-weight: 700;
 }
 
-.search_component {
+.c-searchbutton {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ff385d;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.c-searchbutton:hover {
+  color: #ffffff;
+  background-color: #8f192f;
+}
+
+.c-searchform {
   width: 90%;
   padding: 0.5rem;
   border: 0.1rem;
   border-radius: 3rem;
   background-color: #ffffff;
   position: absolute;
-  position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-top: 1.5rem;
   cursor: pointer;
+  -webkit-box-shadow: 0 3px 6px;
+          box-shadow: 0 3px 6px;
 }
 
-.search_component > input {
+.c-searchform > input {
+  width: 20%;
   padding: 1.3rem;
   border-style: none;
   margin-right: 0;
@@ -588,9 +609,28 @@ main {
   cursor: pointer;
   outline: none;
   border-right: 0.1rem solid #e0e0e0;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
-.search_component > input:last-child {
+@media (max-width: 768px) {
+  .c-searchform > input:nth-child(1) {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-searchform > input:nth-child(n+2):nth-child(-n+4) {
+    display: none;
+  }
+}
+
+.c-searchform > input:hover {
+  background-color: #f0ecec;
+}
+
+.c-searchform > input:last-child {
+  width: 10%;
   border: none;
 }
 
@@ -627,6 +667,12 @@ a {
 .nav-list > li {
   padding-right: 3.214rem;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .nav-list > li {
+    display: none;
+  }
 }
 
 footer {
@@ -759,6 +805,16 @@ footer > .footer_last > .third > ul {
 
 footer > .footer_last > .third > ul > li {
   padding-right: 2rem;
+}
+
+.c-nav-drawer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .c-nav-drawer {
+    display: block;
+  }
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/

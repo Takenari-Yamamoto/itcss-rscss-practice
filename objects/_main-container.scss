@@ -13,8 +13,10 @@ main {
     background-color: $black;
     font-weight: $light;
     font-size: $font-xxl;
-    // position: absolute;
-    // bottom: 0;
+
+    @include tab {
+        font-size: $font-mdxl;
+    }
 
     @include sp {
         font-size: $font-lg;

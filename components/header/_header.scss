@@ -21,8 +21,13 @@ header > .logo {
  }
 
  .nav-list > li {
-    padding-right: $font-xxl;
-    font-weight: $bold;
+   padding-right: $font-xxl;
+   font-weight: $bold;
+
+   @include tab {
+      display: none;
+   }
+
  }
 
 

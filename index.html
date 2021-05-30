@@ -20,14 +20,27 @@
             <li><a href="#">オンライン体験</a></li>
             <li><a href="#">ホストになる</a></li>
         </ul>
+        <div class="c-nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+                <ul class="nav-list">
+                    <li><a href="#">宿泊先</a></li>
+                    <li><a href="#">体験</a></li>
+                    <li><a href="#">オンライン体験</a></li>
+                    <li><a href="#">ホストになる</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <form method="get" action="#" class="search_component">
+        <form method="get" action="#" class="c-searchform">
             <input type="text" size="25" placeholder="行き先はどちらですか？">
             <input type="text" size="25" placeholder="日付を入力">
             <input type="text" size="25" placeholder="チェックアウト">
             <input type="text" size="25" placeholder="人数">
-            <input type="submit" value="検索">
+            <input class="c-searchbutton" type="submit" value="検索">
         </form>
     </main>
     <h1 id="catchphrase">ホストのおもてなしがもたらす、特別な旅</h1>
