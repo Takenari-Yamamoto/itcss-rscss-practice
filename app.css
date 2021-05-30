@@ -502,7 +502,7 @@ main {
 
 .research_experience > p {
   font-size: 1.713rem;
-  margin-left: 3rem;
+  margin: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -572,16 +572,12 @@ main {
 }
 
 .c-searchbutton {
+  position: relative;
   color: #ffffff;
   font-weight: 700;
   background-color: #ff385d;
   border-radius: 50%;
   margin-left: 1rem;
-}
-
-.c-searchbutton:hover {
-  color: #ffffff;
-  background-color: #8f192f;
 }
 
 .c-searchform {
@@ -611,6 +607,11 @@ main {
   border-right: 0.1rem solid #e0e0e0;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
+}
+
+.c-searchform > input:last-child:hover {
+  color: #ffffff;
+  background-color: #8f192f;
 }
 
 @media (max-width: 768px) {

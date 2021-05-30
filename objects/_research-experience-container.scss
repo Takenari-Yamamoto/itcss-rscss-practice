@@ -8,7 +8,7 @@
 
 .research_experience > p {
     font-size: $font-xl;
-    margin-left: 3rem;
+    margin: 3rem;
 
     @include tab {
         font-size: $font-sm;

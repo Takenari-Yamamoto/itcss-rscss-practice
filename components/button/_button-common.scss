@@ -9,6 +9,7 @@
 }
 
 .c-searchbutton {
+  position: relative;
   color: $white;
   font-weight: $bold;
   background-color: $radical-red;
@@ -16,7 +17,3 @@
   margin-left: 1rem;
 }
 
-.c-searchbutton:hover {
-  color: $white;
-  background-color: $rio-red;
-}

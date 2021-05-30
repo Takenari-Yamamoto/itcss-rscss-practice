@@ -24,6 +24,11 @@
     transition: background-color 0.5s;
 }
 
+.c-searchform > input:last-child:hover {
+    color: $white;
+    background-color: $rio-red ;
+}
+
 .c-searchform > input:nth-child(1) {
 
     @include tab {
