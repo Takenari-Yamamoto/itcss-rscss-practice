@@ -20,32 +20,29 @@
 }
 
 .research_experience > .experiences > .experience {
-    margin: 0;
-    width: 50%;
-    text-align: left;
+    display: block;
+    width: 30%;
     margin-right: 1rem;
 
-    @include tab {
-        font-size: $font-sm;
-        margin-left: 3rem;
-    }
-
     @include sp {
+        margin-right: 2rem;
         width: 100%;
-        // margin-right: 10rem;
     }
 
     @include iphone5 {
+        margin-right: 2rem;
     }
 }
 
-.research_experience > .experiences > .experience > .text {
-    text-align: left;
-    margin-left: 1rem;
+.research_experience > .experiences > .experience > p {
+    font-size: $font-sm;
 }
 
 .research_experience > .experiences > .experience > img {
-    width: 30rem;
-    margin: 0;
+    width: 100%;
     border-radius: 1rem;
+
+    @include sp {
+        width: 30rem;
+    }
 }

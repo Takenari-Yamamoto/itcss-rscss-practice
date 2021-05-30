@@ -2,6 +2,11 @@
 @mixin subtitle {
     font-size: $font-xxl;
     margin: 3rem;
+
+    @include tab {
+        font-size: $font-mdxl;
+    }
+
     @include sp {
         font-size: $font-xl;
     }

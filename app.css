@@ -313,6 +313,12 @@ main {
   margin: 3rem;
 }
 
+@media (max-width: 768px) {
+  .area_search > h1 {
+    font-size: 2.286rem;
+  }
+}
+
 @media (max-width: 576px) {
   .area_search > h1 {
     font-size: 1.713rem;
@@ -347,6 +353,12 @@ main {
 .live_in_favorite > h1 {
   font-size: 3.214rem;
   margin: 3rem;
+}
+
+@media (max-width: 768px) {
+  .live_in_favorite > h1 {
+    font-size: 2.286rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -388,6 +400,12 @@ main {
 .fav_place > p {
   font-weight: 700;
   font-size: 1.713rem;
+}
+
+@media (max-width: 768px) {
+  .fav_place > p {
+    font-size: 1.428rem;
+  }
 }
 
 .fav_place > img {
@@ -494,6 +512,12 @@ main {
   margin: 3rem;
 }
 
+@media (max-width: 768px) {
+  .research_experience > h1 {
+    font-size: 2.286rem;
+  }
+}
+
 @media (max-width: 576px) {
   .research_experience > h1 {
     font-size: 1.713rem;
@@ -529,34 +553,37 @@ main {
 }
 
 .research_experience > .experiences > .experience {
-  margin: 0;
-  width: 50%;
-  text-align: left;
+  display: block;
+  width: 30%;
   margin-right: 1rem;
-}
-
-@media (max-width: 768px) {
-  .research_experience > .experiences > .experience {
-    font-size: 1.143rem;
-    margin-left: 3rem;
-  }
 }
 
 @media (max-width: 576px) {
   .research_experience > .experiences > .experience {
+    margin-right: 2rem;
     width: 100%;
   }
 }
 
-.research_experience > .experiences > .experience > .text {
-  text-align: left;
-  margin-left: 1rem;
+@media (max-width: 320px) {
+  .research_experience > .experiences > .experience {
+    margin-right: 2rem;
+  }
+}
+
+.research_experience > .experiences > .experience > p {
+  font-size: 1.143rem;
 }
 
 .research_experience > .experiences > .experience > img {
-  width: 30rem;
-  margin: 0;
+  width: 100%;
   border-radius: 1rem;
+}
+
+@media (max-width: 576px) {
+  .research_experience > .experiences > .experience > img {
+    width: 30rem;
+  }
 }
 
 .c-button {

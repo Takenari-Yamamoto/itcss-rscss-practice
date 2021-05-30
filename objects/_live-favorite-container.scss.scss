@@ -22,6 +22,11 @@
 .fav_place > p {
     font-weight: $bold;
     font-size: $font-xl;
+
+    @include tab {
+        font-size: $font-md;
+    }
+
 }
 
 .fav_place > img {
