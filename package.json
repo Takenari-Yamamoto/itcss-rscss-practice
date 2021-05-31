@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config": "^0.1.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  }
+}

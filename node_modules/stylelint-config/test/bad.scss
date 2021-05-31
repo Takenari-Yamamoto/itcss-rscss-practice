@@ -1,0 +1,448 @@
+$color-hex-case: #FFF;
+$color-hex-length: #ffffff;
+$color-hex-length-alpha: #ffffffaa;
+$color-named: red;
+
+.color-no-invalid-hex {
+  background-color: #00;
+  border-color: #fff1az;
+  color: #12345aa;
+}
+
+.number-leading-zero {
+  line-height: 0.5;
+  transform: translate(2px, 0.4px);
+}
+
+.number-no-trailing-zeros {
+  left: 1.0px;
+  top: 1.01000px;
+}
+
+.string-quotes {
+  content: 'x';
+}
+
+.string-quotes[id='foo'] {
+  display: none;
+}
+
+.length-zero-no-unit {
+  left: 0px;
+  top: 0em;
+}
+
+.unit-case {
+  height: 10PX;
+  padding: 10Em;
+  width: 10PIXEL;
+}
+
+.value-keyword-case {
+  display: Block;
+  height: INHERIT;
+}
+
+.value-no-vendor-prefix {
+  background: -webkit-linear-gradient(bottom, #000, #fff);
+  display: -webkit-flex;
+  max-width: -moz-max-content;
+}
+
+.value-list-comma-newline-after {
+  background-size: 100px,
+                   150px;
+}
+
+.value-list-comma-newline-before {
+  background-size: 100px
+                   ,150px;
+}
+
+.value-list-comma-space-after {
+  background-size: 100px,150px;
+}
+
+.value-list-comma-space-before {
+  background-size: 100px , 150px;
+}
+
+.shorthand-property-no-redundant-values {
+  border-radius: 1px 2px 1px;
+  border-width: 1px 2px 1px 2px;
+  margin: 1px 1px;
+  padding: 1px 0 2px 0;
+}
+
+.property-case {
+  Padding: 1px;
+  WIDTH: 1px;
+}
+
+.property-no-vendor-prefix {
+  -webkit-animation-duration: 3s;
+}
+
+.declaration-bang-space-after {
+  color: #fff! important;
+}
+
+.declaration-bang-space-before {
+  color: #000!important;
+}
+
+.declaration-colon-space-after {
+  height:100px
+}
+
+.declaration-colon-space-before {
+  height : 100px
+}
+
+.declaration-property-value-blacklist {
+  border: none;
+  transition: all 1s linear;
+}
+
+.declaration-block-no-duplicate-properties {
+  background: #f00;
+  font-weight: 400;
+  background: rgba(255, 0, 0, .75);
+}
+
+.declaration-block-no-ignored-properties {
+  .inline {
+    display: inline;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+  }
+
+  .block {
+    display: block;
+    vertical-align: baseline;
+  }
+
+  .flex {
+    display: flex;
+    vertical-align: baseline;
+  }
+
+  .absolute {
+    position: absolute;
+    vertical-align: baseline;
+  }
+
+  .float {
+    float: left;
+    vertical-align: baseline;
+  }
+}
+
+.declaration-block-no-shorthand-property-overrides {
+  padding-left: 10px;
+  padding: 20px;
+}
+
+.declaration-block-properties-order {
+  top: 0;
+  color: #fff;
+}
+
+.declaration-block-semicolon-newline-after {
+  color: #000; top: 0
+}
+
+.declaration-block-semicolon-newline-before {
+  color: #f00
+  ; top: 0;
+}
+
+.declaration-block-trailing-semicolon {
+  color: #fff
+}
+
+.block-closing-brace-newline-after {
+  a { color: #f00; } b { color: #f00; }
+}
+
+.block-closing-brace-newline-before {
+  color: #f00; }
+
+.block-no-empty {}
+
+.block-no-single-line {
+  a,
+  b { color: #f00; }
+
+  a { color: #000; top: 1px; }
+
+  @media print {
+    a { color: #fff; }
+  }
+}
+
+.block-opening-brace-space-before{
+  color: #f0f;
+}
+
+.selector-combinator-space-after,
+.selector-combinator-space-before {
+  a +b {
+    color: #fff;
+  }
+
+  a> b {
+    color: #000;
+  }
+}
+
+.selector-max-specificity {
+  #id {
+    color: #000;
+  }
+
+  .foo .baz .bar .boo {
+    color: #fff;
+  }
+
+  .foo .baz {
+    & .bar .boo {
+      display: block;
+    }
+  }
+
+  .foo {
+    color: #f00;
+
+    & .baz .bar .boo {
+      color: #0f0;
+    }
+  }
+}
+
+#selector-no-id {
+  color: #f00;
+}
+
+.selector-no-universal {
+  * {
+    color: #000;
+  }
+
+  .foo * {
+    color: #000;
+  }
+}
+
+.selector-no-vendor-prefix {
+  input::-moz-placeholder {
+    color: eee;
+  }
+
+  :-webkit-full-screen a {
+    color: ff0;
+  }
+}
+
+.selector-pseudo-class-case:Hover {
+  color: #f00;
+}
+
+.selector-list-comma-newline-after,
+.selector-list-comma-newline-before {
+  a, b {
+    color: #fff;
+  }
+
+  em
+  ,
+  strong {
+    color: #fff;
+  }
+}
+
+.rule-nested-empty-line-before {
+  a {
+    color: #fff;
+  }
+  b {
+    color: #000;
+  }
+}
+
+.rule {
+  color: #fff;
+}
+.rule-non-nested-empty-line-before {
+  color: #000;
+}
+
+.media-feature-colon-space-after,
+.media-feature-colon-space-before {
+  @media (min-width:600px) {
+    a {
+      color: #fff;
+    }
+  }
+
+  @media (max-width : 600px) {
+    a {
+      color: #000;
+    }
+  }
+}
+
+.media-feature-no-missing-punctuation {
+  @media (max-width 600px) {
+    a {
+      color: #fff;
+    }
+  }
+
+  @media (width   20em) {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.media-feature-range-operator-space-after,
+.media-feature-range-operator-space-before {
+  @media (max-width>=600px) {
+    a {
+      color: #fff;
+    }
+  }
+
+  @media (max-width >=600px) {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.at-rule-empty-line-before {
+  a {
+    color: #fff;
+    @media (max-width >= 600px) {
+      color: #000;
+    }
+  }
+}
+
+.at-rule-name-case {
+  @Charset 'UTF-8';
+
+  @MEDIA (min-width: 50em) {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.at-rule-name-space-after {
+  @charset"UTF-8";
+
+  @media(min-width: 700px) {
+    a {
+      color: #fff;
+    }
+  }
+
+  @media  (min-width: 700px) {
+    a {
+      color: #fff;
+    }
+  }
+
+  @media
+  (min-width: 700px) {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.comment-whitespace-inside {
+  /*comment*/
+
+  /*comment */
+
+  /** comment**/
+}
+
+.indentation {
+a {
+background-position: 50% 0;
+}
+
+  a {
+    background-position: 50% 0;
+      color: #f00
+  }
+
+    a {
+      background-position: 50% 0;
+    }
+}
+
+.max-empty-lines {
+  a {
+    color: #fff;
+  }
+
+
+  b {
+    color: #000;
+  }
+
+  /*
+    Comment strings are also checked
+
+
+    So the following is a warning
+  */
+}
+
+.max-nesting-depth {
+  & b { /* nesting depth 1 */
+    & .foo { /* nesting depth 2 */
+      @media print { /* nesting depth 3 */
+        .baz { /* nesting depth 4 */
+          color: #f00;
+        }
+      }
+    }
+  }
+}
+
+// no-duplicate-selectors
+
+.foo,
+.bar,
+.foo {
+  color: #fff;
+}
+
+.foo {
+  color: #fff;
+}
+
+.foo {
+  color: #000;
+}
+
+.boo,
+.bat {
+  color: #fff;
+}
+
+.bat,
+.boo {
+  color: #fff;
+}
+
+.no-extra-semicolons {
+  color: #fff;;
+}
