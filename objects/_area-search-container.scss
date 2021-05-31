@@ -1,30 +1,37 @@
 .area_search {
     width: 100%;
+    overflow: scroll;
+}
+
+.area_search > .area_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width:150%;
+    margin: 2rem;
+
+    @include tab {
+        width: 200%;
+    }
+
 }
 
 .area_search > .area_list > .area {
-    margin: 3rem;
-    width: 26%;
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 3rem;
+    margin: 1rem;
+    width: 20%;
 
     @include tab {
-        width: 50%;
-        display: flex;
-        justify-content: flex-start;
+        width: 20%;
     }
-
+    
 }
 
 .area_search > .area_list > .area > img {
-    width: 12rem;
-    border-radius: 2rem;
-
-    @include tab {
-        width: 6.5rem;
-    }
+    width: 30%;
+    border-radius: 1rem;
 
 }
 
@@ -32,24 +39,13 @@
     @include subtitle
 }
 
-.area_list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    overflow: scroll;
-}
-
-.area_list > .area {
-    
-    @include sp {
-        width: 100%;
-    }
-
-}
-
-.area_text {
+.area_search > .area_list > .area > .area_text {
     padding-left: 3rem;
     margin-top: 1rem;
+
+    @include sp {
+        font-size: $font-xs;
+    }
 }
 
 .area_list > .area > .area_text > span {
