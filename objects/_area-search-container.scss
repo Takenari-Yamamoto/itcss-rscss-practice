@@ -5,8 +5,8 @@
 
 .area_search > .area_list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: left;
     width:150%;
@@ -20,8 +20,8 @@
 
 .area_search > .area_list > .area {
     display: flex;
-    margin: 1rem;
     width: 20%;
+    margin: 1rem;
 
     @include tab {
         width: 20%;
