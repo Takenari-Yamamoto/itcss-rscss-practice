@@ -1,4 +1,4 @@
-.lets_host {
+.lets-host {
     width: 90%;
     height: 400px;
     margin: 0 auto;
@@ -26,7 +26,7 @@
 
 }
 
-.lets_host > .text {
+.lets-host > .text {
    padding: 9rem;
    color: $white;
 
@@ -47,11 +47,7 @@
    }
 }
 
-.lets_host > .img_phone {
-    display: none;
-}
-
-.lets_host > .text > h1 {
+.lets-host > .text > h1 {
     font-size: $font-mdxl;
 
     @include tab {
@@ -60,11 +56,11 @@
 
 }
 
-.lets_host > .text > p {
+.lets-host > .text > p {
     padding-bottom: 2rem;
 }
 
-.lets_host > .text > button {
+.lets-host > .text > button {
 
     @include tab {
         font-size: 1rem;

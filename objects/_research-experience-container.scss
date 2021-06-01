@@ -1,12 +1,12 @@
-.research_experience {
+.research-experience {
     width: 100%;
 }
 
-.research_experience  > h1 {
+.research-experience  > h1 {
     @include subtitle;
 }
 
-.research_experience > p {
+.research-experience > p {
     margin: 3rem;
     font-size: $font-xl;
 
@@ -15,11 +15,11 @@
     }
 }
 
-.research_experience > .experiences {
-    @include sidebyside
+.research-experience > .experiences {
+    @include sidebyside;
 }
 
-.research_experience > .experiences > .experience {
+.research-experience > .experiences > .experience {
     display: block;
     width: 30%;
     margin-right: 1rem;
@@ -34,11 +34,12 @@
     }
 }
 
-.research_experience > .experiences > .experience > p {
-    font-size: $font-sm;
+.research-experience > .experiences > .experience > p {
+    margin-top: 0.5rem;
+    font-size: $font-md;
 }
 
-.research_experience > .experiences > .experience > img {
+.research-experience > .experiences > .experience > img {
     width: 100%;
     border-radius: 1rem;
 

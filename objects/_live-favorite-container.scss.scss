@@ -1,13 +1,13 @@
 
-.live_in_favorite > h1 {
-    @include subtitle
+.live-favorite > h1 {
+    @include subtitle;
 }
 
-.live_in_favorite > .fav_places {
-    @include sidebyside
+.live-favorite > .favplaces {
+    @include sidebyside;
 }
 
-.live_in_favorite > .fav_places > .fav_place {
+.live-favorite > .favplaces > .favplace {
     display: block;
     width: 30%;
     margin-right: 2rem;
@@ -19,7 +19,7 @@
 
 }
 
-.fav_place > p {
+.live-favorite > .favplaces > .favplace > p {
     font-size: $font-xl;
     font-weight: $bold;
 
@@ -29,7 +29,7 @@
 
 }
 
-.fav_place > img {
+.live-favorite > .favplaces > .favplace > img {
     width: 100%;
     border-radius: 1rem;
 
