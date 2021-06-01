@@ -1,9 +1,9 @@
-.area_search {
+.area-search {
     width: 100%;
     overflow: scroll;
 }
 
-.area_search > .area_list {
+.area-search > .arealist {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@
 
 }
 
-.area_search > .area_list > .area {
+.area-search > .arealist > .area {
     display: flex;
     width: 20%;
     margin: 1rem;
@@ -29,25 +29,21 @@
     
 }
 
-.area_search > .area_list > .area > img {
+.area-search > .arealist > .area > img {
     width: 30%;
     border-radius: 1rem;
 
 }
 
-.area_search > h1 {
-    @include subtitle
+.area-search > h1 {
+    @include subtitle;
 }
 
-.area_search > .area_list > .area > .area_text {
+.area-search > .arealist > .area > .areatext {
     padding-left: 3rem;
     margin-top: 1rem;
 
     @include sp {
         font-size: $font-xs;
     }
-}
-
-.area_list > .area > .area_text > span {
-    font-weight: $semi-bold;
 }

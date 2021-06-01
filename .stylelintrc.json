@@ -13,9 +13,7 @@
         1,
         {
             "ignore": ["pseudo-classes"],
-            "ignoreAtRules": ["include"],
-            "block-no-empty": null,
-            "unit-whitelist": ["em", "rem", "s"]
+            "ignoreAtRules": ["include"]
         }
     ]
     }

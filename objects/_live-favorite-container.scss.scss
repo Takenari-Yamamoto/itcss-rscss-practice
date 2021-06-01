@@ -20,8 +20,8 @@
 }
 
 .fav_place > p {
-    font-weight: $bold;
     font-size: $font-xl;
+    font-weight: $bold;
 
     @include tab {
         font-size: $font-md;
