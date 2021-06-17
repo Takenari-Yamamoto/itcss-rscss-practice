@@ -2,18 +2,18 @@
   position: relative;
   display: inline-block;
   padding: 1rem;
-  color:  $black;
-  background:  $white;/*色*/
-  border-radius: 1rem;/*角の丸み*/
   font-weight: $bold;
+  color:  $black;
+  background:  $white;
+  border-radius: 1rem;/*色*//*角の丸み*/
 }
 
 .c-searchbutton {
   position: relative;
-  color: $white;
+  margin-left: 1rem;
   font-weight: $bold;
+  color: $white;
   background-color: $radical-red;
   border-radius: 50%;
-  margin-left: 1rem;
 }
 

@@ -2,25 +2,25 @@ footer {
     background-color: $snowberry-glay;
 }
 
-footer > .company_info {
-    margin-top : 10rem;
+footer > .company-info {
     padding-left: 1rem;
+    margin-top : 10rem;
 }
 
-footer > .company_info > p {
+footer > .company-info > p {
     max-width: 90%;
-    font-size: $font-mds;
     padding: 1.5rem;
+    font-size: $font-mds;
     font-weight: $bold;
 }
 
-footer > .company_info > ul {
-    max-width: 98%;
-    margin: 0 auto;
+footer > .company-info > ul {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid rgb(204, 202, 202);
+    max-width: 98%;
+    margin: 0 auto;
     margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(204, 202, 202);
 
     @include tab {
         display: block;
@@ -29,10 +29,10 @@ footer > .company_info > ul {
 
 }
 
-footer > .company_info > ul > li {
-    font-size: $font-mds;
-    padding: 1.5rem;
+footer > .company-info > ul > li {
     width: 32%;
+    padding: 1.5rem;
+    font-size: $font-mds;
 
     @include tab {
         width: 100%;
@@ -40,7 +40,7 @@ footer > .company_info > ul > li {
     }
 }
 
-footer > .footer_last {
+footer > .footer-last {
     font-size: $font-xs;
     text-align: center;
 
@@ -54,41 +54,41 @@ footer > .footer_last {
 
 }
 
-footer > .footer_last > .first {
+footer > .footer-last > .first {
     display: flex;
-    margin: 1rem;
     justify-content: center;
+    margin: 1rem;
 
     @include sp {
         justify-content: left;
     }
 } 
 
-footer > .footer_last > .first > p {
+footer > .footer-last > .first > p {
     padding-right: 2rem;
 }
 
-footer > .footer_last > .first > .sns_icon {
+footer > .footer-last > .first > .sns-icon {
     display: flex;
     padding-right: 2rem;
 }
 
-footer > .footer_last > .first > .sns_icon > p {
-    padding-right: 2rem;
-}
-
-footer > .footer_last > .second > p {
+footer > .footer-last > .second > p {
     
     @include tab {
         margin: 0.1rem;
     }
 }
 
-footer > .footer_last > .third > ul {
+footer > .footer-last > .first > .sns-icon > p {
+    padding-right: 2rem;
+}
+
+footer > .footer-last > .third > ul {
 
     display: flex;
-    padding-bottom: 2rem;
     justify-content: center;
+    padding-bottom: 2rem;
 
     @include tab {
         margin: 0.1rem;
@@ -99,6 +99,6 @@ footer > .footer_last > .third > ul {
     }
 }
 
-footer > .footer_last > .third > ul > li {
+footer > .footer-last > .third > ul > li {
     padding-right: 2rem;
 }

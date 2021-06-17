@@ -239,6 +239,10 @@ textarea {
   outline: none;
 }
 
+a {
+  color: #ffffff;
+}
+
 main {
   height: 400px;
   background-image: url("./images/mainpic.jpeg");
@@ -583,48 +587,48 @@ main {
   position: relative;
   display: inline-block;
   padding: 1rem;
+  font-weight: 700;
   color: #000000;
   background: #ffffff;
-  /*色*/
   border-radius: 1rem;
+  /*色*/
   /*角の丸み*/
-  font-weight: 700;
 }
 
 .c-searchbutton {
   position: relative;
-  color: #ffffff;
+  margin-left: 1rem;
   font-weight: 700;
+  color: #ffffff;
   background-color: #ff385d;
   border-radius: 50%;
-  margin-left: 1rem;
 }
 
 .c-searchform {
-  width: 90%;
-  padding: 0.5rem;
-  border: 0.1rem;
-  border-radius: 3rem;
-  background-color: #ffffff;
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  width: 90%;
+  padding: 0.5rem;
   margin-top: 1.5rem;
   cursor: pointer;
+  background-color: #ffffff;
+  border: 0.1rem;
+  border-radius: 3rem;
   -webkit-box-shadow: 0 3px 6px;
           box-shadow: 0 3px 6px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .c-searchform > input {
   width: 20%;
   padding: 1.3rem;
-  border-style: none;
   margin-right: 0;
-  border-radius: 3rem;
   cursor: pointer;
-  outline: none;
+  border-style: none;
   border-right: 0.1rem solid #e0e0e0;
+  border-radius: 3rem;
+  outline: none;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
@@ -660,22 +664,17 @@ input:hover {
 }
 
 header {
-  padding: 2.286rem 4% 1rem;
   top: 0;
-  width: 100%;
-  background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  padding: 2.286rem 4% 1rem;
+  background-color: #000000;
 }
 
 header > .logo {
   font-size: 2.286rem;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .nav-list {
@@ -700,131 +699,131 @@ footer {
   background-color: #f0ecec;
 }
 
-footer > .company_info {
-  margin-top: 10rem;
+footer > .company-info {
   padding-left: 1rem;
+  margin-top: 10rem;
 }
 
-footer > .company_info > p {
+footer > .company-info > p {
   max-width: 90%;
-  font-size: 1.286rem;
   padding: 1.5rem;
+  font-size: 1.286rem;
   font-weight: 700;
 }
 
-footer > .company_info > ul {
-  max-width: 98%;
-  margin: 0 auto;
+footer > .company-info > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-bottom: 1px solid #cccaca;
+  max-width: 98%;
+  margin: 0 auto;
   margin-bottom: 3rem;
+  border-bottom: 1px solid #cccaca;
 }
 
 @media (max-width: 768px) {
-  footer > .company_info > ul {
+  footer > .company-info > ul {
     display: block;
     margin: 1.3rem;
   }
 }
 
-footer > .company_info > ul > li {
-  font-size: 1.286rem;
-  padding: 1.5rem;
+footer > .company-info > ul > li {
   width: 32%;
+  padding: 1.5rem;
+  font-size: 1.286rem;
 }
 
 @media (max-width: 768px) {
-  footer > .company_info > ul > li {
+  footer > .company-info > ul > li {
     width: 100%;
     padding: 0.6rem;
   }
 }
 
-footer > .footer_last {
+footer > .footer-last {
   font-size: 1rem;
   text-align: center;
 }
 
 @media (max-width: 768px) {
-  footer > .footer_last {
+  footer > .footer-last {
     margin-left: 1rem;
   }
 }
 
 @media (max-width: 576px) {
-  footer > .footer_last {
+  footer > .footer-last {
     text-align: left;
   }
 }
 
-footer > .footer_last > .first {
+footer > .footer-last > .first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 1rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media (max-width: 576px) {
-  footer > .footer_last > .first {
+  footer > .footer-last > .first {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
   }
 }
 
-footer > .footer_last > .first > p {
+footer > .footer-last > .first > p {
   padding-right: 2rem;
 }
 
-footer > .footer_last > .first > .sns_icon {
+footer > .footer-last > .first > .sns-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 2rem;
-}
-
-footer > .footer_last > .first > .sns_icon > p {
   padding-right: 2rem;
 }
 
 @media (max-width: 768px) {
-  footer > .footer_last > .second > p {
+  footer > .footer-last > .second > p {
     margin: 0.1rem;
   }
 }
 
-footer > .footer_last > .third > ul {
+footer > .footer-last > .first > .sns-icon > p {
+  padding-right: 2rem;
+}
+
+footer > .footer-last > .third > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 2rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media (max-width: 768px) {
-  footer > .footer_last > .third > ul {
+  footer > .footer-last > .third > ul {
     margin: 0.1rem;
   }
 }
 
 @media (max-width: 576px) {
-  footer > .footer_last > .third > ul {
+  footer > .footer-last > .third > ul {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
   }
 }
 
-footer > .footer_last > .third > ul > li {
+footer > .footer-last > .third > ul > li {
   padding-right: 2rem;
 }
 
@@ -836,10 +835,6 @@ footer > .footer_last > .third > ul > li {
   #c-nav-drawer {
     visibility: visible;
   }
-}
-
-#nav-drawer {
-  position: relative;
 }
 
 /*チェックボックス等は非表示に*/
@@ -856,7 +851,9 @@ footer > .footer_last > .third > ul > li {
 }
 
 /*ハンバーガーの形をCSSで表現*/
-#nav-open span, #nav-open span:before, #nav-open span:after {
+#nav-open span,
+#nav-open span:before,
+#nav-open span:after {
   position: absolute;
   height: 3px;
   /*線の太さ*/
@@ -865,7 +862,7 @@ footer > .footer_last > .third > ul > li {
   border-radius: 3px;
   background: #555;
   display: block;
-  content: '';
+  content: "";
   cursor: pointer;
 }
 
@@ -888,8 +885,8 @@ footer > .footer_last > .third > ul > li {
   height: 100%;
   background: black;
   opacity: 0;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 /*メニューの中身*/
@@ -904,8 +901,8 @@ footer > .footer_last > .third > ul > li {
   /*最大幅（お好みで調整を）*/
   height: 100%;
   background: #fff;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
 }
@@ -925,7 +922,7 @@ footer > .footer_last > .third > ul > li {
 /*チェックがついたら表示させる*/
 #nav-input:checked ~ #nav-close {
   display: block;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #nav-input:checked ~ #nav-content {
@@ -957,12 +954,14 @@ footer > .footer_last > .third > ul > li {
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
-._sp-hidden {
-  display: block;
-}
-
 @media (max-width: 576px) {
   ._sp-hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  ._tab-hidden {
     display: none;
   }
 }

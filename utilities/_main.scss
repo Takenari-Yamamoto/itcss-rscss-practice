@@ -2,8 +2,12 @@
 
 //PCとSP非表示
 ._sp-hidden {
-  display: block;
   @include sp {
+    display: none;
+  }
+}
+._tab-hidden {
+  @include tab {
     display: none;
   }
 }

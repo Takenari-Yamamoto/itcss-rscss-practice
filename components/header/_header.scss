@@ -1,34 +1,25 @@
 header {
-    padding: $font-mdxl 4% $font-xs;
-    top: 0;
-    width: 100%;
-    background-color: $black;
-    display: flex;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: $font-mdxl 4% $font-xs;
+  background-color: $black;
 }
 
 header > .logo {
-    font-size: $font-mdxl;
+  font-size: $font-mdxl;
 }
 
- a {	
-    text-decoration: none;
-    color: $white;
- }
+.nav-list {
+  display: flex;
+  margin: 0 auto;
+}
 
- .nav-list {
-    display: flex;
-    margin: 0 auto;
- }
+.nav-list > li {
+  padding-right: $font-xxl;
+  font-weight: $bold;
 
- .nav-list > li {
-   padding-right: $font-xxl;
-   font-weight: $bold;
-
-   @include tab {
-      display: none;
-   }
-
- }
-
-
- 
+  @include tab {
+    display: none;
+  }
+}
