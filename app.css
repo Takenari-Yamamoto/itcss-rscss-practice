@@ -677,20 +677,20 @@ header > .logo {
   font-size: 2.286rem;
 }
 
-.nav-list {
+header > .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
 }
 
-.nav-list > li {
+header > .nav-list > .link {
   padding-right: 3.214rem;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .nav-list > li {
+  header > .nav-list > .link {
     display: none;
   }
 }

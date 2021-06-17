@@ -10,12 +10,12 @@ header > .logo {
   font-size: $font-mdxl;
 }
 
-.nav-list {
+header > .nav-list {
   display: flex;
   margin: 0 auto;
 }
 
-.nav-list > li {
+header > .nav-list > .link {
   padding-right: $font-xxl;
   font-weight: $bold;
 
