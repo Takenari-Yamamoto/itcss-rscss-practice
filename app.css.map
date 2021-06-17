@@ -18,8 +18,8 @@
         "objects/_research-experience-container.scss",
         "components/button/_button-common.scss",
         "components/search_form/_search_form.scss",
-        "components/header/_header.scss",
-        "components/footer/_footer.scss",
+        "components/header/_header-component.scss",
+        "components/footer/_footer-component.scss",
         "components/nav-drawer/_nav_drawer.scss",
         "utilities/_main.scss"
     ],

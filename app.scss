@@ -1,32 +1,32 @@
 // settings
-@import 'settings/colors';
-@import 'settings/fonts';
-@import 'settings/media';
-@import 'settings/shadow';
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/media";
+@import "settings/shadow";
 
 // tools
-@import 'tools/main';
+@import "tools/main";
 
 // generic
-@import 'generic/reset';
+@import "generic/reset";
 
 // elements
-@import 'elements/main';
+@import "elements/main";
 
 // objects
-@import 'objects/common-container';
-@import 'objects/main-container';
-@import 'objects/area-search-container';
-@import 'objects/live-favorite-container.scss';
-@import 'objects/lets-host-container';
-@import 'objects/research-experience-container';
+@import "objects/common-container";
+@import "objects/main-container";
+@import "objects/area-search-container";
+@import "objects/live-favorite-container.scss";
+@import "objects/lets-host-container";
+@import "objects/research-experience-container";
 
 // components
-@import 'components/button/button-common';
-@import 'components/search_form/search_form';
-@import 'components/header/_header';
-@import 'components/footer/_footer';
-@import 'components/nav-drawer/_nav_drawer';
+@import "components/button/button-common";
+@import "components/search_form/search_form";
+@import "components/header/header-component";
+@import "components/footer/footer-component";
+@import "components/nav-drawer/_nav_drawer";
 
 // utilities
-@import 'utilities/main';
+@import "utilities/main";
