@@ -3,9 +3,9 @@
   display: inline-block;
   padding: 1rem;
   font-weight: $bold;
-  color:  $black;
-  background:  $white;
-  border-radius: 1rem;/*色*//*角の丸み*/
+  color: $black;
+  background-color: $white;
+  border-radius: 1rem; /*色*/ /*角の丸み*/
 }
 
 .c-searchbutton {
@@ -16,4 +16,3 @@
   background-color: $radical-red;
   border-radius: 50%;
 }
-
