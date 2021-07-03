@@ -1,16 +1,16 @@
 .c-button {
   position: relative;
   display: inline-block;
-  padding: 1rem;
+  padding: 16px;
   font-weight: $bold;
   color: $black;
   background-color: $white;
-  border-radius: 1rem; /*色*/ /*角の丸み*/
+  border-radius: 16px; /*色*/ /*角の丸み*/
 }
 
 .c-searchbutton {
   position: relative;
-  margin-left: 1rem;
+  margin-left: 256px;
   font-weight: $bold;
   color: $white;
   background-color: $radical-red;

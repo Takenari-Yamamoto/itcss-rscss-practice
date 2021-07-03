@@ -1,40 +1,36 @@
-
 .live-favorite > h1 {
-    @include subtitle;
+  @include subtitle;
 }
 
 .live-favorite > .favplaces {
-    @include sidebyside;
+  @include sidebyside;
 }
 
 .live-favorite > .favplaces > .favplace {
-    display: block;
-    width: 30%;
-    margin-right: 2rem;
+  display: block;
+  width: 30%;
+  margin-right: 32px;
 
-    @include sp {
-        width: 40%;
-        margin-right: 20rem;
-    }
-
+  @include sp {
+    width: 40%;
+    margin-right: 320px;
+  }
 }
 
 .live-favorite > .favplaces > .favplace > p {
-    font-size: $font-xl;
-    font-weight: $bold;
+  font-size: $font-xl;
+  font-weight: $bold;
 
-    @include tab {
-        font-size: $font-md;
-    }
-
+  @include tab {
+    font-size: $font-md;
+  }
 }
 
 .live-favorite > .favplaces > .favplace > img {
-    width: 100%;
-    border-radius: 1rem;
+  width: 100%;
+  border-radius: 16px;
 
-    @include sp {
-        width: 30rem;
-    }
-
+  @include sp {
+    width: 480px;
+  }
 }

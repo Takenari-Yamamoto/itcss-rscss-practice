@@ -1,49 +1,46 @@
 .area-search {
-    width: 100%;
-    overflow: scroll;
+  width: 100%;
+  overflow: scroll;
 }
 
 .area-search > .arealist {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: left;
-    width:150%;
-    margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  width: 150%;
+  margin: 32px;
 
-    @include tab {
-        width: 200%;
-    }
-
+  @include tab {
+    width: 200%;
+  }
 }
 
 .area-search > .arealist > .area {
-    display: flex;
-    width: 20%;
-    margin: 1rem;
+  display: flex;
+  width: 20%;
+  margin: 16px;
 
-    @include tab {
-        width: 20%;
-    }
-    
+  @include tab {
+    width: 20%;
+  }
 }
 
 .area-search > .arealist > .area > img {
-    width: 30%;
-    border-radius: 1rem;
-
+  width: 30%;
+  border-radius: 16px;
 }
 
 .area-search > h1 {
-    @include subtitle;
+  @include subtitle;
 }
 
 .area-search > .arealist > .area > .areatext {
-    padding-left: 3rem;
-    margin-top: 1rem;
+  padding-left: 48px;
+  margin-top: 16px;
 
-    @include sp {
-        font-size: $font-xs;
-    }
+  @include sp {
+    font-size: $font-xs;
+  }
 }

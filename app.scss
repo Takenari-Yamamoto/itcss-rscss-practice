@@ -23,11 +23,13 @@
 
 // components
 @import "components/button/button-common";
-@import "components/search_form/search_form";
-@import "components/search_form/search_button";
+@import "components/search_form/_search_form.scss";
+@import "components/search_button.scss/_search_button";
 @import "components/header/header-component";
 @import "components/footer/footer-component";
 @import "components/nav-drawer/_nav_drawer";
 
 // utilities
 @import "utilities/main";
+
+// itcss-rscss-template/components/search_button.scss/_search_button.scss

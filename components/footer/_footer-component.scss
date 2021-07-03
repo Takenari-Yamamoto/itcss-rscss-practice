@@ -1,104 +1,100 @@
 footer {
-    background-color: $snowberry-glay;
+  background-color: $snowberry-glay;
 }
 
 footer > .company-info {
-    padding-left: 1rem;
-    margin-top : 10rem;
+  padding-left: 16px;
+  margin-top: 160px;
 }
 
 footer > .company-info > p {
-    max-width: 90%;
-    padding: 1.5rem;
-    font-size: $font-mds;
-    font-weight: $bold;
+  max-width: 90%;
+  padding: 24px;
+  font-size: $font-mds;
+  font-weight: $bold;
 }
 
 footer > .company-info > ul {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 98%;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgb(204, 202, 202);
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 98%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  border-bottom: 1px solid rgb(204, 202, 202);
 
-    @include tab {
-        display: block;
-        margin: 1.3rem;
-    }
-
+  @include tab {
+    display: block;
+    margin: 20.8px;
+  }
 }
 
 footer > .company-info > ul > li {
-    width: 32%;
-    padding: 1.5rem;
-    font-size: $font-mds;
+  width: 32%;
+  padding: 24px;
+  font-size: $font-mds;
 
-    @include tab {
-        width: 100%;
-        padding: 0.6rem;
-    }
+  @include tab {
+    width: 100%;
+    padding: 9.6px;
+  }
 }
 
 footer > .footer-last {
-    font-size: $font-xs;
-    text-align: center;
+  font-size: $font-xs;
+  text-align: center;
 
-    @include tab {
-        margin-left: 1rem;
-    }
+  @include tab {
+    margin-left: 16px;
+  }
 
-    @include sp {
-        text-align: left;
-    }
-
+  @include sp {
+    text-align: left;
+  }
 }
 
 footer > .footer-last > .first {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
 
-    @include sp {
-        justify-content: left;
-    }
-} 
+  @include sp {
+    justify-content: left;
+  }
+}
 
 footer > .footer-last > .first > p {
-    padding-right: 2rem;
+  padding-right: 32px;
 }
 
 footer > .footer-last > .first > .sns-icon {
-    display: flex;
-    padding-right: 2rem;
+  display: flex;
+  padding-right: 32px;
 }
 
 footer > .footer-last > .second > p {
-    
-    @include tab {
-        margin: 0.1rem;
-    }
+  @include tab {
+    margin: 1.6px;
+  }
 }
 
 footer > .footer-last > .first > .sns-icon > p {
-    padding-right: 2rem;
+  padding-right: 32px;
 }
 
 footer > .footer-last > .third > ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
 
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
+  @include tab {
+    margin: 1.6px;
+  }
 
-    @include tab {
-        margin: 0.1rem;
-    }
-
-    @include sp {
-        justify-content: left;
-    }
+  @include sp {
+    justify-content: left;
+  }
 }
 
 footer > .footer-last > .third > ul > li {
-    padding-right: 2rem;
+  padding-right: 32px;
 }

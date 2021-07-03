@@ -1,58 +1,55 @@
 .c-searchform {
-    position: absolute;
-    left: 50%;
-    width: 90%;
-    padding: 0.5rem ;
-    margin-top: 1.5rem;
-    cursor: pointer;
-    background-color: $white;
-    border: 0.1rem;
-    border-radius: 3rem;
-    box-shadow: $shadow;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  padding: 8px;
+  margin-top: 24px;
+  cursor: pointer;
+  background-color: $white;
+  border: 1.6px;
+  border-radius: 48px;
+  box-shadow: $shadow;
+  transform: translateX(-50%);
 }
 
 .c-searchform > input {
-    width: 20%;
-    padding: 1.3rem;
-    margin-right: 0;
-    cursor: pointer;
-    border-style: none;
-    border-right: 0.1rem solid rgb(224, 224, 224);
-    border-radius: 3rem;
-    outline: none;   
-    transition: background-color 0.5s;
+  width: 20%;
+  padding: 20.8px;
+  margin-right: 0;
+  cursor: pointer;
+  border-style: none;
+  border-right: 1.6px solid rgb(224, 224, 224);
+  border-radius: 48px;
+  outline: none;
+  transition: background-color 0.5s;
 }
 
 .c-searchform > input:last-child:hover {
-    color: $white;
-    background-color: $rio-red ;
+  color: $white;
+  background-color: $rio-red;
 }
 
 .c-searchform > input:nth-child(1) {
-
-    @include tab {
-        width: 80%;
-    }
+  @include tab {
+    width: 80%;
+  }
 }
 
-.c-searchform > input:nth-child(n+2):nth-child(-n+4) {
-    
-    @include tab {
-        display: none;
-    }
-
+.c-searchform > input:nth-child(n + 2):nth-child(-n + 4) {
+  @include tab {
+    display: none;
+  }
 }
 
 .c-searchform > input:hover {
-    background-color: $snowberry-glay;
+  background-color: $snowberry-glay;
 }
 
 .c-searchform > input:last-child {
-    width: 10%;
-    border: none;
-} 
+  width: 10%;
+  border: none;
+}
 
 input:hover {
-    color: $black-dark-grey;
+  color: $black-dark-grey;
 }

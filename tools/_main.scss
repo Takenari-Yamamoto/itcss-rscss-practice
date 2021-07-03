@@ -1,24 +1,24 @@
 /* 　アニメーションやプリプロセッサ用のmixinやfunctionをこのレイヤーで管理　*/
 @mixin subtitle {
-    font-size: $font-xxl;
-    margin: 3rem;
+  font-size: $font-xxl;
+  margin: 48px;
 
-    @include tab {
-        font-size: $font-mdxl;
-    }
+  @include tab {
+    font-size: $font-mdxl;
+  }
 
-    @include sp {
-        font-size: $font-xl;
-    }
+  @include sp {
+    font-size: $font-xl;
+  }
 }
 
 @mixin sidebyside {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 
-    @include tab {
-        overflow: scroll;
-    }
+  @include tab {
+    overflow: scroll;
+  }
 }

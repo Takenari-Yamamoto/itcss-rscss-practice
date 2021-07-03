@@ -1,28 +1,24 @@
 main {
-    height: 400px;
-    background-image: url("./images/mainpic.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 400px;
+  background-image: url("./images/mainpic.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #catchphrase {
-    width: 100%;
-    padding: 3rem;
-    font-size: $font-xxl;
-    font-weight: $light;
-    color: $white;
-    text-align: center;
-    background-color: $black;
+  width: 100%;
+  padding: 48px;
+  font-size: $font-xxl;
+  font-weight: $light;
+  color: $white;
+  text-align: center;
+  background-color: $black;
 
-    @include tab {
-        font-size: $font-mdxl;
-    }
+  @include tab {
+    font-size: $font-mdxl;
+  }
 
-    @include sp {
-        font-size: $font-lg;
-    }
-
+  @include sp {
+    font-size: $font-lg;
+  }
 }
-
-
-
