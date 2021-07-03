@@ -27,12 +27,12 @@
   }
 }
 
-.area-search > .arealist > .area > img {
+.area-search > .arealist > .area > .picture {
   width: 30%;
   border-radius: 16px;
 }
 
-.area-search > h1 {
+.area-search > .subtitle {
   @include subtitle;
 }
 

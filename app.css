@@ -252,7 +252,7 @@ main {
 
 #catchphrase {
   width: 100%;
-  padding: 3rem;
+  padding: 48px;
   font-size: 3.214rem;
   font-weight: 300;
   color: #ffffff;
@@ -294,7 +294,7 @@ main {
       -ms-flex-pack: left;
           justify-content: left;
   width: 150%;
-  margin: 2rem;
+  margin: 32px;
 }
 
 @media (max-width: 768px) {
@@ -308,7 +308,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 20%;
-  margin: 1rem;
+  margin: 16px;
 }
 
 @media (max-width: 768px) {
@@ -317,31 +317,31 @@ main {
   }
 }
 
-.area-search > .arealist > .area > img {
+.area-search > .arealist > .area > .picture {
   width: 30%;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
-.area-search > h1 {
+.area-search > .subtitle {
   font-size: 3.214rem;
-  margin: 3rem;
+  margin: 48px;
 }
 
 @media (max-width: 768px) {
-  .area-search > h1 {
+  .area-search > .subtitle {
     font-size: 2.286rem;
   }
 }
 
 @media (max-width: 576px) {
-  .area-search > h1 {
+  .area-search > .subtitle {
     font-size: 1.713rem;
   }
 }
 
 .area-search > .arealist > .area > .areatext {
-  padding-left: 3rem;
-  margin-top: 1rem;
+  padding-left: 48px;
+  margin-top: 16px;
 }
 
 @media (max-width: 576px) {
@@ -352,7 +352,7 @@ main {
 
 .live-favorite > h1 {
   font-size: 3.214rem;
-  margin: 3rem;
+  margin: 48px;
 }
 
 @media (max-width: 768px) {
@@ -387,13 +387,13 @@ main {
 .live-favorite > .favplaces > .favplace {
   display: block;
   width: 30%;
-  margin-right: 2rem;
+  margin-right: 32px;
 }
 
 @media (max-width: 576px) {
   .live-favorite > .favplaces > .favplace {
     width: 40%;
-    margin-right: 20rem;
+    margin-right: 320px;
   }
 }
 
@@ -410,12 +410,12 @@ main {
 
 .live-favorite > .favplaces > .favplace > img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 @media (max-width: 576px) {
   .live-favorite > .favplaces > .favplace > img {
-    width: 30rem;
+    width: 480px;
   }
 }
 
@@ -423,11 +423,11 @@ main {
   width: 90%;
   height: 400px;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 48px;
+  margin-bottom: 48px;
   background-image: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=1440");
   background-size: cover;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 @media (max-width: 768px) {
@@ -436,7 +436,7 @@ main {
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 1rem;
+    border-radius: 16px;
   }
 }
 
@@ -453,13 +453,13 @@ main {
 }
 
 .lets-host > .text {
-  padding: 9rem;
+  padding: 144px;
   color: #ffffff;
 }
 
 @media (max-width: 768px) {
   .lets-host > .text {
-    padding: 4rem 3rem;
+    padding: 64px 48px;
     font-size: 1.143rem;
     text-align: left;
   }
@@ -473,28 +473,29 @@ main {
 
 @media (max-width: 320px) {
   .lets-host > .text {
-    padding-top: 14rem;
+    padding-top: 224px;
     font-size: 1rem;
     text-align: center;
   }
 }
 
-.lets-host > .text > h1 {
+.lets-host > .text > .title {
   font-size: 2.286rem;
 }
 
 @media (max-width: 768px) {
-  .lets-host > .text > h1 {
+  .lets-host > .text > .title {
     font-size: 1.3rem;
   }
 }
 
-.lets-host > .text > p {
-  padding-bottom: 2rem;
+.lets-host > .text > .catchphrase {
+  padding-bottom: 32px;
+  color: red;
 }
 
 @media (max-width: 768px) {
-  .lets-host > .text > button {
+  .lets-host > .text > .c-button {
     font-size: 1rem;
   }
 }
@@ -505,7 +506,7 @@ main {
 
 .research-experience > h1 {
   font-size: 3.214rem;
-  margin: 3rem;
+  margin: 48px;
 }
 
 @media (max-width: 768px) {
@@ -521,7 +522,7 @@ main {
 }
 
 .research-experience > p {
-  margin: 3rem;
+  margin: 48px;
   font-size: 1.713rem;
 }
 
@@ -551,35 +552,35 @@ main {
 .research-experience > .experiences > .experience {
   display: block;
   width: 30%;
-  margin-right: 1rem;
+  margin-right: 16px;
 }
 
 @media (max-width: 576px) {
   .research-experience > .experiences > .experience {
     width: 100%;
-    margin-right: 2rem;
+    margin-right: 32px;
   }
 }
 
 @media (max-width: 320px) {
   .research-experience > .experiences > .experience {
-    margin-right: 2rem;
+    margin-right: 32px;
   }
 }
 
 .research-experience > .experiences > .experience > p {
-  margin-top: 0.5rem;
+  margin-top: 8px;
   font-size: 1.428rem;
 }
 
 .research-experience > .experiences > .experience > img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 @media (max-width: 576px) {
   .research-experience > .experiences > .experience > img {
-    width: 30rem;
+    width: 480px;
   }
 }
 
@@ -595,25 +596,16 @@ main {
   /*角の丸み*/
 }
 
-.c-searchbutton {
-  position: relative;
-  margin-left: 256px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #ff385d;
-  border-radius: 50%;
-}
-
 .c-searchform {
   position: absolute;
   left: 50%;
   width: 90%;
-  padding: 0.5rem;
-  margin-top: 1.5rem;
+  padding: 8px;
+  margin-top: 24px;
   cursor: pointer;
   background-color: #ffffff;
-  border: 0.1rem;
-  border-radius: 3rem;
+  border: 1.6px;
+  border-radius: 48px;
   -webkit-box-shadow: 0 3px 6px;
           box-shadow: 0 3px 6px;
   -webkit-transform: translateX(-50%);
@@ -622,12 +614,12 @@ main {
 
 .c-searchform > input {
   width: 20%;
-  padding: 1.3rem;
+  padding: 20.8px;
   margin-right: 0;
   cursor: pointer;
   border-style: none;
-  border-right: 0.1rem solid #e0e0e0;
-  border-radius: 3rem;
+  border-right: 1.6px solid #e0e0e0;
+  border-radius: 48px;
   outline: none;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -665,7 +657,7 @@ input:hover {
 
 .c-searchbutton {
   position: relative;
-  margin-left: 1rem;
+  margin-left: 16px;
   font-weight: 700;
   color: #ffffff;
   background-color: #ff385d;
@@ -709,18 +701,18 @@ footer {
 }
 
 footer > .company-info {
-  padding-left: 1rem;
-  margin-top: 10rem;
+  padding-left: 16px;
+  margin-top: 160px;
 }
 
-footer > .company-info > p {
+footer > .company-info > .title {
   max-width: 90%;
-  padding: 1.5rem;
+  padding: 24px;
   font-size: 1.286rem;
   font-weight: 700;
 }
 
-footer > .company-info > ul {
+footer > .company-info > .information-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -733,22 +725,22 @@ footer > .company-info > ul {
 }
 
 @media (max-width: 768px) {
-  footer > .company-info > ul {
+  footer > .company-info > .information-list {
     display: block;
     margin: 20.8px;
   }
 }
 
-footer > .company-info > ul > li {
+footer > .company-info > .information-list > .information-item {
   width: 32%;
-  padding: 1.5rem;
+  padding: 24px;
   font-size: 1.286rem;
 }
 
 @media (max-width: 768px) {
-  footer > .company-info > ul > li {
+  footer > .company-info > .information-list > .information-item {
     width: 100%;
-    padding: 0.6rem;
+    padding: 9.6px;
   }
 }
 
@@ -759,7 +751,7 @@ footer > .footer-last {
 
 @media (max-width: 768px) {
   footer > .footer-last {
-    margin-left: 1rem;
+    margin-left: 16px;
   }
 }
 
@@ -776,7 +768,7 @@ footer > .footer-last > .first {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 1rem;
+  margin: 16px;
 }
 
 @media (max-width: 576px) {
@@ -787,25 +779,25 @@ footer > .footer-last > .first {
   }
 }
 
-footer > .footer-last > .first > p {
-  padding-right: 2rem;
+footer > .footer-last > .first > .item {
+  padding-right: 32px;
 }
 
 footer > .footer-last > .first > .sns-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 2rem;
+  padding-right: 32px;
 }
 
 @media (max-width: 768px) {
-  footer > .footer-last > .second > p {
-    margin: 0.1rem;
+  footer > .footer-last > .second > .item {
+    margin: 1.6px;
   }
 }
 
-footer > .footer-last > .first > .sns-icon > p {
-  padding-right: 2rem;
+footer > .footer-last > .first > .sns-icon > .item {
+  padding-right: 32px;
 }
 
 footer > .footer-last > .third > ul {
@@ -815,12 +807,12 @@ footer > .footer-last > .third > ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 2rem;
+  padding-bottom: 32px;
 }
 
 @media (max-width: 768px) {
   footer > .footer-last > .third > ul {
-    margin: 0.1rem;
+    margin: 1.6px;
   }
 }
 
@@ -832,8 +824,8 @@ footer > .footer-last > .third > ul {
   }
 }
 
-footer > .footer-last > .third > ul > li {
-  padding-right: 2rem;
+footer > .footer-last > .third > .list > .item {
+  padding-right: 32px;
 }
 
 #c-nav-drawer {
@@ -869,7 +861,7 @@ footer > .footer-last > .third > ul > li {
   width: 25px;
   /*長さ*/
   border-radius: 3px;
-  background: #555;
+  background-color: #555;
   display: block;
   content: "";
   cursor: pointer;
@@ -892,7 +884,7 @@ footer > .footer-last > .third > ul > li {
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background-color: black;
   opacity: 0;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -909,7 +901,7 @@ footer > .footer-last > .third > ul > li {
   max-width: 250px;
   /*最大幅（お好みで調整を）*/
   height: 100%;
-  background: #fff;
+  background-color: #fff;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   -webkit-transform: translateX(-105%);
@@ -917,11 +909,11 @@ footer > .footer-last > .third > ul > li {
 }
 
 #nav-content > ul {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 #nav-content > ul > li {
-  padding: 1rem;
+  padding: 16px;
 }
 
 #nav-content > ul > li > a {

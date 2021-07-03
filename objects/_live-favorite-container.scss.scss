@@ -17,7 +17,7 @@
   }
 }
 
-.live-favorite > .favplaces > .favplace > p {
+.live-favorite > .favplaces > .favplace > .text {
   font-size: $font-xl;
   font-weight: $bold;
 
@@ -26,7 +26,7 @@
   }
 }
 
-.live-favorite > .favplaces > .favplace > img {
+.live-favorite > .favplaces > .favplace > .picture {
   width: 100%;
   border-radius: 16px;
 

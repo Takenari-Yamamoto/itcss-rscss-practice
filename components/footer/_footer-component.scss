@@ -7,14 +7,14 @@ footer > .company-info {
   margin-top: 160px;
 }
 
-footer > .company-info > p {
+footer > .company-info > .title {
   max-width: 90%;
   padding: 24px;
   font-size: $font-mds;
   font-weight: $bold;
 }
 
-footer > .company-info > ul {
+footer > .company-info > .information-list {
   display: flex;
   flex-wrap: wrap;
   max-width: 98%;
@@ -28,7 +28,7 @@ footer > .company-info > ul {
   }
 }
 
-footer > .company-info > ul > li {
+footer > .company-info > .information-list > .information-item {
   width: 32%;
   padding: 24px;
   font-size: $font-mds;
@@ -62,7 +62,7 @@ footer > .footer-last > .first {
   }
 }
 
-footer > .footer-last > .first > p {
+footer > .footer-last > .first > .item {
   padding-right: 32px;
 }
 
@@ -71,13 +71,13 @@ footer > .footer-last > .first > .sns-icon {
   padding-right: 32px;
 }
 
-footer > .footer-last > .second > p {
+footer > .footer-last > .second > .item {
   @include tab {
     margin: 1.6px;
   }
 }
 
-footer > .footer-last > .first > .sns-icon > p {
+footer > .footer-last > .first > .sns-icon > .item {
   padding-right: 32px;
 }
 
@@ -95,6 +95,6 @@ footer > .footer-last > .third > ul {
   }
 }
 
-footer > .footer-last > .third > ul > li {
+footer > .footer-last > .third > .list > .item {
   padding-right: 32px;
 }

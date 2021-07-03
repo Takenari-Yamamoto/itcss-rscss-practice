@@ -46,7 +46,7 @@
   }
 }
 
-.lets-host > .text > h1 {
+.lets-host > .text > .title {
   font-size: $font-mdxl;
 
   @include tab {
@@ -54,11 +54,11 @@
   }
 }
 
-.lets-host > .text > p {
+.lets-host > .text > .catchphrase {
   padding-bottom: 32px;
 }
 
-.lets-host > .text > button {
+.lets-host > .text > .c-button {
   @include tab {
     font-size: $font-xs;
   }

@@ -23,7 +23,7 @@
 
 // components
 @import "components/button/button-common";
-@import "components/search-form/_search-form.scss";
+@import "components/search_form/_search-form";
 @import "components/search-button.scss/_search-button";
 @import "components/header/header-component";
 @import "components/footer/footer-component";
@@ -31,5 +31,3 @@
 
 // utilities
 @import "utilities/main";
-
-// itcss-rscss-template/components/search_button.scss/_search_button.scss
