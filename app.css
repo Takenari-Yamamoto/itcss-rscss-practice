@@ -915,7 +915,7 @@ footer {
   padding-right: 32px;
 }
 
-.footer-bottom > .first > .icons > .icon {
+.footer-bottom .first > .icons > .icon {
   padding-right: 32px;
 }
 
@@ -949,7 +949,7 @@ footer {
   }
 }
 
-.footer-bottom > .third > .list > .item {
+.footer-bottom .third > .list > .item {
   padding-right: 32px;
 }
 
