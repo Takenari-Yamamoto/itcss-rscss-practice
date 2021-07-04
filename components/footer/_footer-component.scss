@@ -2,19 +2,19 @@ footer {
   background-color: $snowberry-glay;
 }
 
-footer > .company-info {
+footer > .information {
   padding-left: 16px;
   margin-top: 160px;
 }
 
-footer > .company-info > .title {
+footer > .information > .title {
   max-width: 90%;
   padding: 24px;
   font-size: $font-mds;
   font-weight: $bold;
 }
 
-footer > .company-info > .information-list {
+footer > .information > .list {
   display: flex;
   flex-wrap: wrap;
   max-width: 98%;
@@ -28,7 +28,7 @@ footer > .company-info > .information-list {
   }
 }
 
-footer > .company-info > .information-list > .information-item {
+footer > .information > .list > .item {
   width: 32%;
   padding: 24px;
   font-size: $font-mds;
@@ -39,7 +39,7 @@ footer > .company-info > .information-list > .information-item {
   }
 }
 
-footer > .footer-last {
+footer > .last {
   font-size: $font-xs;
   text-align: center;
 
@@ -52,7 +52,7 @@ footer > .footer-last {
   }
 }
 
-footer > .footer-last > .first {
+footer > .last > .first {
   display: flex;
   justify-content: center;
   margin: 16px;
@@ -62,26 +62,26 @@ footer > .footer-last > .first {
   }
 }
 
-footer > .footer-last > .first > .item {
+footer > .last > .first > .item {
   padding-right: 32px;
 }
 
-footer > .footer-last > .first > .sns-icon {
+footer > .last > .first > .icons {
   display: flex;
   padding-right: 32px;
 }
 
-footer > .footer-last > .second > .item {
+footer > .last > .first > .icons > .icon {
+  padding-right: 32px;
+}
+
+footer > .last > .second > .item {
   @include tab {
     margin: 1.6px;
   }
 }
 
-footer > .footer-last > .first > .sns-icon > .item {
-  padding-right: 32px;
-}
-
-footer > .footer-last > .third > ul {
+footer > .last > .third > .list {
   display: flex;
   justify-content: center;
   padding-bottom: 32px;
@@ -95,6 +95,6 @@ footer > .footer-last > .third > ul {
   }
 }
 
-footer > .footer-last > .third > .list > .item {
+footer > .last > .third > .list > .item {
   padding-right: 32px;
 }

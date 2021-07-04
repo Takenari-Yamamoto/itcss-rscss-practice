@@ -22,9 +22,9 @@
 @import "objects/research-experience-container";
 
 // components
-@import "components/button/button-common";
+@import "components/button/_button-detail.scss";
+@import "components/button/_button-search.scss";
 @import "components/search_form/_search-form";
-@import "components/search-button.scss/_search-button";
 @import "components/header/header-component";
 @import "components/footer/footer-component";
 @import "components/nav-drawer/_nav-drawer";
