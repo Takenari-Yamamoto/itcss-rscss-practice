@@ -1,4 +1,4 @@
-.c-searchform {
+.search-form {
   position: absolute;
   left: 50%;
   width: 90%;
@@ -12,7 +12,7 @@
   transform: translateX(-50%);
 }
 
-.c-searchform > input {
+.search-form > input {
   width: 20%;
   padding: 20.8px;
   margin-right: 0;
@@ -24,28 +24,28 @@
   transition: background-color 0.5s;
 }
 
-.c-searchform > input:last-child:hover {
+.search-form > input:last-child:hover {
   color: $white;
   background-color: $rio-red;
 }
 
-.c-searchform > input:nth-child(1) {
+.search-form > input:nth-child(1) {
   @include tab {
     width: 80%;
   }
 }
 
-.c-searchform > input:nth-child(n + 2):nth-child(-n + 4) {
+.search-form > input:nth-child(n + 2):nth-child(-n + 4) {
   @include tab {
     display: none;
   }
 }
 
-.c-searchform > input:hover {
+.search-form > input:hover {
   background-color: $snowberry-glay;
 }
 
-.c-searchform > input:last-child {
+.search-form > input:last-child {
   width: 10%;
   border: none;
 }

@@ -583,7 +583,7 @@ main {
   }
 }
 
-.c-button {
+.button-detail {
   position: relative;
   display: inline-block;
   padding: 16px;
@@ -595,7 +595,7 @@ main {
   /*角の丸み*/
 }
 
-.c-searchbutton {
+.button-search {
   position: relative;
   margin-left: 16px;
   font-weight: 700;
@@ -604,7 +604,7 @@ main {
   border-radius: 50%;
 }
 
-.c-searchform {
+.search-form {
   position: absolute;
   left: 50%;
   width: 90%;
@@ -620,7 +620,7 @@ main {
           transform: translateX(-50%);
 }
 
-.c-searchform > input {
+.search-form > input {
   width: 20%;
   padding: 20.8px;
   margin-right: 0;
@@ -633,28 +633,28 @@ main {
   transition: background-color 0.5s;
 }
 
-.c-searchform > input:last-child:hover {
+.search-form > input:last-child:hover {
   color: #ffffff;
   background-color: #8f192f;
 }
 
 @media (max-width: 768px) {
-  .c-searchform > input:nth-child(1) {
+  .search-form > input:nth-child(1) {
     width: 80%;
   }
 }
 
 @media (max-width: 768px) {
-  .c-searchform > input:nth-child(n + 2):nth-child(-n + 4) {
+  .search-form > input:nth-child(n + 2):nth-child(-n + 4) {
     display: none;
   }
 }
 
-.c-searchform > input:hover {
+.search-form > input:hover {
   background-color: #f0ecec;
 }
 
-.c-searchform > input:last-child {
+.search-form > input:last-child {
   width: 10%;
   border: none;
 }
@@ -693,139 +693,6 @@ header > .list > .link {
   header > .list > .link {
     display: none;
   }
-}
-
-footer {
-  background-color: #f0ecec;
-}
-
-footer > .information {
-  padding-left: 16px;
-  margin-top: 160px;
-}
-
-footer > .information > .title {
-  max-width: 90%;
-  padding: 24px;
-  font-size: 1.286rem;
-  font-weight: 700;
-}
-
-footer > .information > .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 98%;
-  margin: 0 auto;
-  margin-bottom: 48px;
-  border-bottom: 1px solid #cccaca;
-}
-
-@media (max-width: 768px) {
-  footer > .information > .list {
-    display: block;
-    margin: 20.8px;
-  }
-}
-
-footer > .information > .list > .item {
-  width: 32%;
-  padding: 24px;
-  font-size: 1.286rem;
-}
-
-@media (max-width: 768px) {
-  footer > .information > .list > .item {
-    width: 100%;
-    padding: 9.6px;
-  }
-}
-
-footer > .last {
-  font-size: 1rem;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  footer > .last {
-    margin-left: 16px;
-  }
-}
-
-@media (max-width: 576px) {
-  footer > .last {
-    text-align: left;
-  }
-}
-
-footer > .last > .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 16px;
-}
-
-@media (max-width: 576px) {
-  footer > .last > .first {
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-  }
-}
-
-footer > .last > .first > .item {
-  padding-right: 32px;
-}
-
-footer > .last > .first > .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 32px;
-}
-
-footer > .last > .first > .icons > .icon {
-  padding-right: 32px;
-  color: red;
-}
-
-@media (max-width: 768px) {
-  footer > .last > .second > .item {
-    margin: 1.6px;
-  }
-}
-
-footer > .last > .third > .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 32px;
-}
-
-@media (max-width: 768px) {
-  footer > .last > .third > .list {
-    margin: 1.6px;
-  }
-}
-
-@media (max-width: 576px) {
-  footer > .last > .third > .list {
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-  }
-}
-
-footer > .last > .third > .list > .item {
-  padding-right: 32px;
 }
 
 #c-nav-drawer {
@@ -952,6 +819,138 @@ footer > .last > .third > .list > .item {
 .logo-area {
   text-align: center;
   margin: auto;
+}
+
+footer {
+  background-color: #f0ecec;
+}
+
+.footer-navigation {
+  padding-left: 16px;
+  margin-top: 160px;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 98%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #cccaca;
+}
+
+@media (max-width: 768px) {
+  .footer-list {
+    display: block;
+    margin: 20.8px;
+  }
+}
+
+.footer-list > .item {
+  width: 32%;
+  padding: 24px;
+  font-size: 1.286rem;
+}
+
+@media (max-width: 768px) {
+  .footer-list > .item {
+    width: 100%;
+    padding: 9.6px;
+  }
+}
+
+.footer-list > .title {
+  width: 100%;
+  padding: 24px;
+  font-size: 1.286rem;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-bottom {
+    text-align: left;
+  }
+}
+
+.footer-bottom > .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 16px;
+}
+
+@media (max-width: 576px) {
+  .footer-bottom > .first {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+.footer-bottom > .first > .item {
+  padding-right: 32px;
+}
+
+.footer-bottom > .first > .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 32px;
+}
+
+.footer-bottom > .first > .icons > .icon {
+  padding-right: 32px;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom > .second > .item {
+    margin: 1.6px;
+  }
+}
+
+.footer-bottom > .third > .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom > .third > .list {
+    margin: 1.6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-bottom > .third > .list {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+.footer-bottom > .third > .list > .item {
+  padding-right: 32px;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/

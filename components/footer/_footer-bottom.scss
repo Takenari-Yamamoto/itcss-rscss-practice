@@ -1,0 +1,59 @@
+.footer-bottom {
+  font-size: $font-xs;
+  text-align: center;
+
+  @include tab {
+    margin-left: 16px;
+  }
+
+  @include sp {
+    text-align: left;
+  }
+}
+
+.footer-bottom > .first {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+
+  @include sp {
+    justify-content: left;
+  }
+}
+
+.footer-bottom > .first > .item {
+  padding-right: 32px;
+}
+
+.footer-bottom > .first > .icons {
+  display: flex;
+  padding-right: 32px;
+}
+
+.footer-bottom > .first > .icons > .icon {
+  padding-right: 32px;
+}
+
+.footer-bottom > .second > .item {
+  @include tab {
+    margin: 1.6px;
+  }
+}
+
+.footer-bottom > .third > .list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+
+  @include tab {
+    margin: 1.6px;
+  }
+
+  @include sp {
+    justify-content: left;
+  }
+}
+
+.footer-bottom > .third > .list > .item {
+  padding-right: 32px;
+}

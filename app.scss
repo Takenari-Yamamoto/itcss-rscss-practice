@@ -26,8 +26,13 @@
 @import "components/button/_button-search.scss";
 @import "components/search-form/_search-form";
 @import "components/header/header-component";
-@import "components/footer/footer-component";
 @import "components/nav-drawer/_nav-drawer";
+
+// footer components
+@import "components/footer/footer-component";
+@import "components/footer/footer-navigation";
+@import "components/footer/footer-list";
+@import "components/footer/footer-bottom";
 
 // utilities
 @import "utilities/main";
