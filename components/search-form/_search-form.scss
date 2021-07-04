@@ -10,46 +10,46 @@
   border-radius: 48px;
   box-shadow: $shadow;
   transform: translateX(-50%);
-}
 
-.search-form > input {
-  width: 20%;
-  padding: 20.8px;
-  margin-right: 0;
-  cursor: pointer;
-  border-style: none;
-  border-right: 1.6px solid rgb(224, 224, 224);
-  border-radius: 48px;
-  outline: none;
-  transition: background-color 0.5s;
-}
-
-.search-form > input:last-child:hover {
-  color: $white;
-  background-color: $rio-red;
-}
-
-.search-form > input:nth-child(1) {
-  @include tab {
-    width: 80%;
+  > .textfield {
+    width: 20%;
+    padding: 20.8px;
+    margin-right: 0;
+    cursor: pointer;
+    border-style: none;
+    border-right: 1.6px solid rgb(224, 224, 224);
+    border-radius: 48px;
+    outline: none;
+    transition: background-color 0.5s;
   }
-}
 
-.search-form > input:nth-child(n + 2):nth-child(-n + 4) {
-  @include tab {
-    display: none;
+  > .textfield:last-child:hover {
+    color: $white;
+    background-color: $rio-red;
   }
-}
 
-.search-form > input:hover {
-  background-color: $snowberry-glay;
-}
+  > .textfield:nth-child(1) {
+    @include tab {
+      width: 80%;
+    }
+  }
 
-.search-form > input:last-child {
-  width: 10%;
-  border: none;
-}
+  > .textfield:nth-child(n + 2):nth-child(-n + 4) {
+    @include tab {
+      display: none;
+    }
+  }
 
-input:hover {
-  color: $black-dark-grey;
+  > .textfield:hover {
+    background-color: $snowberry-glay;
+  }
+
+  > .textfield:last-child {
+    width: 10%;
+    border: none;
+  }
+
+  .textfield:hover {
+    color: $black-dark-grey;
+  }
 }

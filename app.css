@@ -620,7 +620,7 @@ main {
           transform: translateX(-50%);
 }
 
-.search-form > input {
+.search-form > .textfield {
   width: 20%;
   padding: 20.8px;
   margin-right: 0;
@@ -633,33 +633,33 @@ main {
   transition: background-color 0.5s;
 }
 
-.search-form > input:last-child:hover {
+.search-form > .textfield:last-child:hover {
   color: #ffffff;
   background-color: #8f192f;
 }
 
 @media (max-width: 768px) {
-  .search-form > input:nth-child(1) {
+  .search-form > .textfield:nth-child(1) {
     width: 80%;
   }
 }
 
 @media (max-width: 768px) {
-  .search-form > input:nth-child(n + 2):nth-child(-n + 4) {
+  .search-form > .textfield:nth-child(n + 2):nth-child(-n + 4) {
     display: none;
   }
 }
 
-.search-form > input:hover {
+.search-form > .textfield:hover {
   background-color: #f0ecec;
 }
 
-.search-form > input:last-child {
+.search-form > .textfield:last-child {
   width: 10%;
   border: none;
 }
 
-input:hover {
+.search-form .textfield:hover {
   color: #363636;
 }
 
